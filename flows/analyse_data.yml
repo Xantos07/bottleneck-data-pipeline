@@ -1,0 +1,25 @@
+id: analyse_data
+namespace: prod
+
+triggers: 
+  - id: after_import_all_excel
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions: 
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: import_excel_data
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+
+tasks:
+  - id: analyse_all_data
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    commands:
+      - python analyse_doublons.py
+      - python analyse_valeurs_null.py

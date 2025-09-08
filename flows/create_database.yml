@@ -1,8 +1,9 @@
-id: test_duckdb
+id: create_database
 namespace: prod
+description: Création et initialisation de la base DuckDB
 
 tasks:
-  - id: duckdb
+  - id: setup_db
     type: io.kestra.plugin.scripts.python.Commands
     namespaceFiles:
       enabled: true
@@ -11,9 +12,4 @@ tasks:
     beforeCommands:
       - pip install pandas openpyxl duckdb
     commands:
-      - python test/create_db.py
-      - python test/import_all_excel_to_db.py
-      - python test/analyse_doublons.py
-      - python test/suppression_doublons.py
-      - python test/verification.py
-
+      - python create_db.py

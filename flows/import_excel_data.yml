@@ -1,0 +1,26 @@
+id: import_excel_data
+namespace: prod
+
+triggers: 
+  - id: after_db_creation
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions: 
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: create_database
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+
+tasks:
+  - id: import_all_excel
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+#    beforeCommands:
+#      - pip install pandas openpyxl duckdb
+    commands:
+      - python import_all_excel_to_db.py
