@@ -1,0 +1,25 @@
+id: delete_data
+namespace: prod
+
+triggers: 
+  - id: after_analyse_data
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions: 
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: analyse_data
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+
+tasks:
+  - id: delete_data
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    commands:
+      - python delete_doublons.py
+      - python delete_valeurs_null.py
