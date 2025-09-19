@@ -1,8 +1,4 @@
 import duckdb
-import classification_service
-import classification_repository
-
-import duckdb
 import pandas as pd
 
 try:
