@@ -1,6 +1,4 @@
-# =============================================================================
 # analyse_doublons.py
-# =============================================================================
 
 import duckdb
 from doublon_service import analyze_duplicates, sample_duplicates

@@ -1,6 +1,4 @@
-# =============================================================================
-# delete_doublons.py - UNIQUEMENT orchestration et affichage
-# =============================================================================
+# delete_doublons.py 
 
 import duckdb
 from doublon_service import clean_duplicates
