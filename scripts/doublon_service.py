@@ -18,7 +18,7 @@ def sample_duplicates(conn, table_name, column, limit=3):
     
 def clean_duplicates(conn, table_name, column):
     """Nettoie les doublons avec prévisualisation pour sécurité"""
-    # D'abord prévisualiser
+
     rows_to_delete = preview_deletation(conn, table_name, column)
     
     if rows_to_delete == 0:
@@ -28,7 +28,6 @@ def clean_duplicates(conn, table_name, column):
             "message": "Aucun doublon à supprimer"
         }
     
-    # Puis supprimer
     rows_deleted = delete_duplicate_samples(conn, table_name, column)
     
     return {

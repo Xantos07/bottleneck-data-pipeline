@@ -1,10 +1,8 @@
 def delete_duplicate_samples(conn, table_name, column):
     """Supprime les doublons, garde la première occurrence (plus petit rowid)"""
     try:
-        # Compter avant suppression
         count_before = conn.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0]
         
-        # Supprimer
         conn.execute(f"""
             DELETE FROM {table_name}
             WHERE rowid NOT IN (
@@ -16,7 +14,6 @@ def delete_duplicate_samples(conn, table_name, column):
             AND {column} IS NOT NULL
         """)
         
-        # Compter après suppression
         count_after = conn.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0]
         
         return count_before - count_after

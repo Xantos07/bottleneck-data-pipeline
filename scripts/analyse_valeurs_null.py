@@ -1,5 +1,5 @@
 # =============================================================================
-# analyse_nulls.py - UNIQUEMENT orchestration et affichage
+# analyse_nulls.py
 # =============================================================================
 
 import duckdb
@@ -21,7 +21,7 @@ try:
     
     for table_name, id_columns in TABLES_CONFIG.items():
         if not table_exists(conn, table_name):
-            print(f"⚠️  Table {table_name} non trouvée, ignorée")
+            print(f"[ANALYSE WARINING]  Table {table_name} non trouvée, ignorée")
             continue
         
         existing_columns = get_table_columns(conn, table_name)
@@ -29,13 +29,13 @@ try:
         
         for column in id_columns:
             if column not in existing_columns:
-                print(f"⚠️  Colonne {column} non trouvée dans {table_name}, ignorée")
+                print(f"[ANALYSE WARINING]  Colonne {column} non trouvée dans {table_name}, ignorée")
                 continue
             
             try:
                 stats = analyze_nulls(conn, table_name, column)
                 
-                print(f"\n📊 Analyse {table_name}.{column}")
+                print(f"\n[ANALYSE]  Analyse {table_name}.{column}")
                 print(f"   - Total lignes: {stats['total_rows']:,}")
                 print(f"   - NULL: {stats['null_count']:,}")
                 print(f"   - Vides: {stats['empty_count']:,}")
@@ -45,21 +45,21 @@ try:
                 total_null_found += stats['missing_count']
                 
                 if stats['missing_count'] > 0:
-                    print("   🔍 Exemples de lignes avec valeurs manquantes:")
+                    print("[ANALYSE] Exemples de lignes avec valeurs manquantes:")
                     for i, row in enumerate(sample_nulls(conn, table_name, column), 1):
                         print(f"     Exemple {i}: {dict(zip(existing_columns, row))}")
                 else:
-                    print("   ✅ Aucune valeur manquante")
+                    print("[ANALYSE] Aucune valeur manquante")
                     
             except Exception as e:
-                print(f"❌ Erreur lors de l'analyse de {table_name}.{column}: {e}")
+                print(f"[ANALYSE ERREUR] Erreur lors de l'analyse de {table_name}.{column}: {e}")
     
-    print(f"\n📈 RÉSUMÉ GLOBAL:")
+    print(f"\n [ANALYSE] RÉSUMÉ GLOBAL:")
     print(f"   - Total valeurs manquantes trouvées: {total_null_found:,}")
 
 except Exception as e:
-    print(f"❌ Erreur de connexion à la base: {e}")
+    print(f" [ANALYSE ERROR] Erreur de connexion à la base: {e}")
 finally:
     if 'conn' in locals():
         conn.close()
-        print("\n🔚 Connexion fermée")
+        print("\n Connexion fermée")

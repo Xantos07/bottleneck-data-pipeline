@@ -1,5 +1,5 @@
 # =============================================================================
-# analyse_doublons.py - UNIQUEMENT orchestration et affichage
+# analyse_doublons.py
 # =============================================================================
 
 import duckdb
@@ -19,7 +19,7 @@ try:
     
     for table_name, id_columns in TABLES_CONFIG.items():
         if not table_exists(conn, table_name):
-            print(f"⚠️  Table {table_name} non trouvée, ignorée")
+            print(f"[ANALYSE WARINING]  Table {table_name} non trouvée, ignorée")
             continue
             
         existing_columns = get_table_columns(conn, table_name)
@@ -27,30 +27,30 @@ try:
         
         for id_column in id_columns:
             if id_column not in existing_columns:
-                print(f"⚠️  Colonne {id_column} non trouvée dans {table_name}, ignorée")
+                print(f"[ANALYSE WARINING]  Colonne {id_column} non trouvée dans {table_name}, ignorée")
                 continue
                 
             try:
                 stats = analyze_duplicates(conn, table_name, id_column)
-                print(f"\n📊 Audit {table_name}.{id_column}")
+                print(f"\n [ANALYSE] Audit {table_name}.{id_column}")
                 print(f"   - Lignes totales: {stats['total_rows']:,}")
                 print(f"   - IDs uniques: {stats['unique_ids']:,}")
                 print(f"   - Doublons: {stats['duplicate_count']:,}")
                 print(f"   - Taux de doublons: {stats['duplicate_rate']:.2f}%")
 
                 if stats["duplicate_count"] > 0:
-                    print("   🔍 Exemples de doublons:")
+                    print("[ANALYSE] Exemples de doublons:")
                     for dup_id, occ in sample_duplicates(conn, table_name, id_column):
                         print(f"     • {dup_id} ({occ} occurrences)")
                 else:
-                    print("   ✅ Aucun doublon détecté")
+                    print("[ANALYSE] Aucun doublon détecté")
                     
             except Exception as e:
-                print(f"❌ Erreur lors de l'analyse de {table_name}.{id_column}: {e}")
+                print(f"[ANALYSE ERREUR] Erreur lors de l'analyse de {table_name}.{id_column}: {e}")
 
 except Exception as e:
-    print(f"❌ Erreur de connexion à la base: {e}")
+    print(f"[ANALYSE ERREUR] Erreur de connexion à la base: {e}")
 finally:
     if 'conn' in locals():
         conn.close()
-        print("\n🔚 Connexion fermée")
+        print("\n Connexion fermée")
