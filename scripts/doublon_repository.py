@@ -40,10 +40,9 @@ def preview_deletation(conn, table_name, column):
 def count_duplicates(conn, table_name, column):
     return conn.execute(f"""
         SELECT COUNT(*) as total_rows,
-               COUNT(DISTINCT {column}) as unique_ids,
-               COUNT(*) - COUNT(DISTINCT {column}) as duplicate_count
+               COUNT(DISTINCT CASE WHEN {column} IS NOT NULL THEN {column} END) as unique_ids,
+               (SELECT COUNT(*) FROM {table_name} WHERE {column} IS NOT NULL) - COUNT(DISTINCT CASE WHEN {column} IS NOT NULL THEN {column} END) as duplicate_count
         FROM {table_name}
-        WHERE {column} IS NOT NULL
     """).fetchone()
 
 def fetch_duplicate_samples(conn, table_name, column, limit=3):

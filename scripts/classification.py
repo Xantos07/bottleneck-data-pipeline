@@ -23,6 +23,9 @@ try:
     millesimes = df[df["category"] == "millésime"].head(5)
     ordinaires = df[df["category"] == "ordinaires"].head(5)
     echantillon = pd.concat([millesimes, ordinaires])
+    
+    print(df["category"].value_counts())
+
 
     print(echantillon)
     

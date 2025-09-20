@@ -20,6 +20,17 @@ try:
     df = pd.read_sql_query(query, conn)
     print(df.head())
 
+    chiffreTotal= """
+    SELECT
+      SUM(e.price * w.total_sales) AS chiffre_affaire_total
+      FROM erp_table e
+      JOIN liaison_table l on e.product_id = l.product_id
+      JOIN web_table w ON l.id_web = w.sku
+      WHERE e.price > 0
+      """
+    df = pd.read_sql_query(chiffreTotal, conn)
+    print(df)
+
 except Exception as e:
     print("ERROR:", e)
 

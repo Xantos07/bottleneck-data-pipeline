@@ -9,7 +9,7 @@ def delete_nulls_samples(conn, table_name, column):
                 OR (TRIM(CAST({column} AS VARCHAR)) = '' OR CAST({column} AS VARCHAR) = '')
         """)
 
-        count_after = count_total_rows(conn, table_name, column)
+        count_after = count_total_rows(conn, table_name)
         return count_before - count_after
     except Exception as e:
         print(f"Erreur lors de la suppression: {e}")
