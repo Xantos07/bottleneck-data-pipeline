@@ -10,6 +10,7 @@ try:
         l.id_web,
         e.price AS prix_unitaire,
         w.total_sales AS nombre_vendu,
+        w.post_title,
         (e.price * w.total_sales) AS prix_total
     FROM erp_table e
     JOIN liaison_table l ON e.product_id = l.product_id
@@ -17,8 +18,8 @@ try:
     WHERE e.price > 0
     """
 
-    df = pd.read_sql_query(query, conn)
-    print(df.head())
+    df_querry = pd.read_sql_query(query, conn)
+    print(df_querry.head())
 
     chiffreTotal= """
     SELECT
@@ -29,7 +30,11 @@ try:
       WHERE e.price > 0
       """
     df = pd.read_sql_query(chiffreTotal, conn)
+    
     print(df)
+    
+    output_path = f"/app/data/chiffre_affaire.csv"
+    df_querry.to_csv(output_path, sep='\t', index=False)
 
 except Exception as e:
     print("ERROR:", e)

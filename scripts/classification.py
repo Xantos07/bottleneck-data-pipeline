@@ -5,10 +5,8 @@ try:
     conn = duckdb.connect(database='/app/data/database.duckdb')
     query = """SELECT 
     e.product_id, 
-    e.onsale_web, 
     e.price, 
     e.stock_quantity, 
-    e.stock_status,
     w.post_title
     FROM erp_table e
     JOIN liaison_table l ON e.product_id = l.product_id
@@ -24,7 +22,6 @@ try:
     print(f"Ecart type des prix: {ecart_type:.2f}")
 
     df['z-score'] = (df['price'] - moyenne_prix) /  ecart_type
-
     
     df["category"] = df["z-score"].apply(lambda x: "millésime" if x > 2 else "ordinaires")
 
