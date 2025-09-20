@@ -3,6 +3,9 @@ import pandas as pd
 import os
 
 # Configuration des fichiers à importer
+# Peut être revoir car nous importons tout en brut avec les erreurs pour ensuite faire le nettoyage, à voir pour peut être fair l'inverse 
+
+# mettre dans un file model/util
 FILES_CONFIG = {
     "erp_table": {
         "file": "/app/data/Fichier_erp.xlsx",
@@ -37,6 +40,7 @@ def import_excel_to_table(file_path, table_name, conn):
         print(f"Colonnes: {list(df.columns)}")
         
         # Supprimer la table si elle existe déjà
+        # REPOSITORY /!\  rien a faire ici :)
         conn.execute(f"DROP TABLE IF EXISTS {table_name}")
         
         # Créer la table depuis le DataFrame
