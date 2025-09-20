@@ -1,0 +1,12 @@
+id: export_data
+namespace: prod
+
+tasks:
+  - id: export_data
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    commands:
+      - export.py
