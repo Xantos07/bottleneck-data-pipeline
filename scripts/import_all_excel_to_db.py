@@ -83,7 +83,6 @@ def main():
     
     # Résumé final
     print(f"\n RÉSUMÉ DE L'IMPORT")
-    print(f"═══════════════════")
     print(f"Fichiers importés avec succès: {success_count}/{total_files}")
     
     if success_count > 0:

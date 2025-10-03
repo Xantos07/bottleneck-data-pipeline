@@ -1,6 +1,7 @@
 import duckdb
 import pandas as pd
 
+#tout est dans le même script à séparé
 try:
     conn = duckdb.connect(database='/app/data/database.duckdb')
 
