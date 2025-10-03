@@ -1,25 +1,25 @@
-id: export_data
+id: analyse_data_after_delete
 namespace: prod
 
 triggers: 
-  - id: after_analyse_data_delete
+  - id: after_delete_data
     type: io.kestra.plugin.core.trigger.Flow
     conditions: 
       - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
         namespace: prod
-        flowId: analyse_data_after_delete
+        flowId: delete_data
       - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
         in:
           - SUCCESS
 
 
 tasks:
-  - id: export_all_data
+  - id: analyse_all_data
     type: io.kestra.plugin.scripts.python.Commands
     namespaceFiles:
       enabled: true
     taskRunner:
       type: io.kestra.plugin.core.runner.Process
     commands:
-      - python classification.py
-      - python chiffre.py
+      - python analyse_doublons.py
+      - python analyse_valeurs_null.py

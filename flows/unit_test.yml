@@ -1,0 +1,15 @@
+id: unit_test
+namespace: prod
+description: Création et initialisation de la base de test unitaire DuckDB
+
+tasks:
+  - id: setup_unit_test_db
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    beforeCommands:
+      - pip install pandas openpyxl duckdb pytest
+    commands:
+      - pytest -v -s test/unit_test_doublon.py
