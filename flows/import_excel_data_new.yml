@@ -1,0 +1,26 @@
+id: import_excel_data_new
+namespace: prod
+
+tasks:
+  - id: import_all_excel
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    namespaceFiles:
+      enabled: true
+    outputFiles:
+      - "*.parquet"
+    commands:
+      - python import_all_excel_to_parquet.py
+
+# outputs au niveau du flow
+outputs:
+  - id: erp_file
+    type: FILE
+    value: "{{ outputs.import_all_excel.outputFiles['erp_table.parquet'] }}"
+  - id: liaison_file
+    type: FILE
+    value: "{{ outputs.import_all_excel.outputFiles['liaison_table.parquet'] }}"
+  - id: web_file
+    type: FILE
+    value: "{{ outputs.import_all_excel.outputFiles['web_table.parquet'] }}"

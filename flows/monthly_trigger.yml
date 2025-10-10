@@ -1,0 +1,18 @@
+id: monthly_trigger
+namespace: prod
+
+# import_excel_data
+tasks:
+  - id: log_message
+    type: io.kestra.plugin.core.log.Log
+    message: "je vais appeler import_excel_data_new"
+
+  - id: call_importation
+    type: io.kestra.plugin.core.flow.Subflow
+    namespace: prod   
+    flowId: import_excel_data_new
+    
+triggers:
+  - id: schedule
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 9 15 * *"

@@ -20,6 +20,12 @@ tasks:
       enabled: true
     taskRunner:
       type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      database.duckdb: "{{ trigger.outputs.database_final_duckdb }}"
+    outputFiles:
+      - "*.csv"
+      - "*.xlsx"
+      - "*.json"
     commands:
       - python classification.py
       - python chiffre.py

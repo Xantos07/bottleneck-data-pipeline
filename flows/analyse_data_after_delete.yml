@@ -20,6 +20,13 @@ tasks:
       enabled: true
     taskRunner:
       type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      database.duckdb: "{{ trigger.outputs.database_clean_duckdb }}"
     commands:
       - python analyse_doublons.py
       - python analyse_valeurs_null.py
+
+outputs:
+  - id: database_final_duckdb
+    type: FILE
+    value: "{{ trigger.outputs.database_clean_duckdb }}"

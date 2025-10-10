@@ -12,7 +12,7 @@ triggers:
         in:
           - SUCCESS
 
-
+# parallèl ? compliqué par rapport a la modification de la db
 tasks:
   - id: delete_data
     type: io.kestra.plugin.scripts.python.Commands
@@ -20,6 +20,15 @@ tasks:
       enabled: true
     taskRunner:
       type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      database.duckdb: "{{ trigger.outputs.database_duckdb }}"    
+    outputFiles:
+      - "database.duckdb"
     commands:
       - python delete_doublons.py
       - python delete_valeurs_null.py
+
+outputs:
+  - id: database_clean_duckdb
+    type: FILE
+    value: "{{ outputs.delete_data.outputFiles['database.duckdb'] }}"
