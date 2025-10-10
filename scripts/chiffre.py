@@ -3,8 +3,8 @@ import pandas as pd
 
 #tout est dans le même script à séparé
 try:
-    conn = duckdb.connect(database='/app/data/database.duckdb')
-
+    #conn = duckdb.connect(database='/app/data/database.duckdb')
+    conn = duckdb.connect(database='database.duckdb')
     query = """
     SELECT 
         e.product_id,

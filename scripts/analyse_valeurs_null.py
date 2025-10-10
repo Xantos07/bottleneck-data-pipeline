@@ -13,8 +13,14 @@ TABLES_CONFIG = {
 print("=== ANALYSE DES VALEURS NULL ===")
 
 try:
-    conn = duckdb.connect("/app/data/database.duckdb")
+    #conn = duckdb.connect("/app/data/database.duckdb")
     
+    # Charger les données
+    # conn = duckdb.connect(":memory:")  #  Mémoire
+    # Se connecter à la base de données existante
+    conn = duckdb.connect("database.duckdb")
+    
+    print("Connexion à la base de données existante")
     total_null_found = 0
     
     for table_name, id_columns in TABLES_CONFIG.items():

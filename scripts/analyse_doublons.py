@@ -13,7 +13,15 @@ TABLES_CONFIG = {
 print("=== AUDIT DES DOUBLONS ===")
 
 try:
-    conn = duckdb.connect("/app/data/database.duckdb")
+    # Charger les données
+    #conn = duckdb.connect(":memory:")  #  Mémoire
+    # Se connecter à la base de données existante
+    conn = duckdb.connect("database.duckdb")
+    
+    print("Connexion à la base de données existante")
+    
+
+    # conn = duckdb.connect("/app/data/database.duckdb")
     
     for table_name, id_columns in TABLES_CONFIG.items():
         if not table_exists(conn, table_name):

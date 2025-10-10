@@ -13,7 +13,8 @@ TABLES_CONFIG = {
 print ("\n=== Suppression des valeurs nulles et vides ===")
 
 try:
-    conn = duckdb.connect(database="/app/data/database.duckdb")
+    # Se connecter à la base de données reçue depuis analyse_data
+    conn = duckdb.connect("database.duckdb")
 
     total_deleted = 0
 

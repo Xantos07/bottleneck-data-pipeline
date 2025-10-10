@@ -6,11 +6,11 @@ from doublon_service import analyze_duplicates, sample_duplicates
 from doublon_repository import table_exists, get_table_columns
 
 def test_colomn_none_doublon():
-  """Test avec une table ne contenant pad de doublon"""
+  """Test avec une table ne contenant pas de doublon"""
   
   mock_conn = Mock()
 
-  # 4 colonnes / 4 ids unique / 0 doublon
+  # 4 lignes / 4 ids unique / 0 doublon
   mock_conn.execute.return_value.fetchone.return_value = (4,4,0)
 
   result = analyze_duplicates(mock_conn, "test_table", "id")
@@ -25,7 +25,7 @@ def test_colomn_with_doublon():
 
   mock_conn = Mock()
 
-  # 7 colonnes / 5 ids unique / 2 doublons
+  # 7 lignes / 5 ids unique / 2 doublons
   mock_conn.execute.return_value.fetchone.return_value = (7, 5, 2)
 
   result = analyze_duplicates(mock_conn, "test_table", "id")

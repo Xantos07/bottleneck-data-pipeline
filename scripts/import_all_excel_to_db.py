@@ -25,8 +25,11 @@ db_path = "/app/data/database.duckdb"
 
 def import_excel_to_table(file_path, table_name, conn):
     """Importe un fichier Excel vers une table DuckDB"""
-    print(f"\n=== Import de {file_path} vers {table_name} ===")
-    
+
+    for f in os.listdir("/app/data"):
+        print(os.path.abspath(os.path.join("/app/data", f)))
+
+
     # Vérifier que le fichier existe
     if not os.path.exists(file_path):
         print(f"  Fichier non trouvé: {file_path}")
