@@ -13,4 +13,4 @@ tasks:
       - pip install pandas openpyxl duckdb pytest
     commands:
       - pytest -v -s test/unit_test_doublon.py
-      #- pytest -v -s test/unit_test_null_value.py
+      - pytest -v -s test/unit_test_null_value.py

@@ -1,6 +1,17 @@
 id: import_excel_data_new
 namespace: prod
 
+triggers:
+  - id: import_after_init
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions:
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: init-bottleneck-data-pipeline
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
 tasks:
   - id: import_all_excel
     type: io.kestra.plugin.scripts.python.Commands
