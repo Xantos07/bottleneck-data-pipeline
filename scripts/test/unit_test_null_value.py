@@ -6,38 +6,43 @@ from null_service import analyze_nulls, sample_nulls
 from null_repository import table_exists, get_table_columns
 
 def test_colomn_none_null():
-  """Test avec une table ne contenant pas de valeur null"""
-  
-  mock_conn = Mock()
+    mock_conn = Mock()
+    mock_conn.execute.return_value.fetchone.side_effect = [
+        (4,),  # total rows
+        (0,),  # nulls
+        (0,)   # empty
+    ]
 
-  # 4 lignes / 4 ids unique / 0 null
-  mock_conn.execute.return_value.fetchone.return_value = (4,0,0)
+    result = analyze_nulls(mock_conn, "test_table", "id")
 
-  result = analyze_nulls(mock_conn, "test_table", "id")
+    assert result["total_rows"] == 4
+    assert result["null_count"] == 0
+    assert result["empty_count"] == 0
+    assert result["valid_count"] == 4
+    assert result["missing_count"] == 0
+    assert result["missing_rate"] == 0.0
 
-  assert result["total_rows"] == 4
-  assert result["null_count"] == 0
-  assert result["empty_count"] == 0
-  assert result["valid_count"] == 4
-  assert result["missing_count"] == 0
-  assert result["missing_rate"] == 0.0
   
 def test_colomn_with_null():
-  """Test avec une table contenant des valeurs null"""
+    """Test avec une table contenant des valeurs null"""
 
-  mock_conn = Mock()
+    mock_conn = Mock()
+    mock_conn.execute.return_value.fetchone.side_effect = [
+        (7,),  # total rows
+        (2,),  # nulls
+        (2,)   # empty
+    ]
 
-  # 7 lignes / 5 ids unique / 2 null
-  mock_conn.execute.return_value.fetchone.return_value = (7, 5, 2)
+    result = analyze_nulls(mock_conn, "test_table", "id")
 
-  result = analyze_nulls(mock_conn, "test_table", "id")
+    assert result["total_rows"] == 7
+    assert result["null_count"] == 2
+    assert result["empty_count"] == 2
+    assert result["valid_count"] == 3  # 7 - 2 - 2
+    assert result["missing_count"] == 4
+    assert result["missing_rate"] > 0
 
-  assert result["total_rows"] == 7
-  assert result["null_count"] == 2
-  assert result["empty_count"] == 2
-  assert result["valid_count"] == 5
-  assert result["missing_count"] == 2
-  assert result["missing_rate"] > 0.0
+
 
 
 try:
