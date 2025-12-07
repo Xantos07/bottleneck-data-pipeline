@@ -5,10 +5,11 @@ import duckdb
 print("=== CRÉATION DE LA BASE DE DONNÉES ===")
 
 try:
-    # Créer une base de données DuckDB persistante
+    # Créer une base de données DuckDB
     conn = duckdb.connect("database.duckdb")
     
     # Charger toutes les tables depuis les fichiers Parquet
+    # peut être faire un model ? pour les nom des tables ?? car c'est en brut...
     conn.execute("CREATE TABLE erp_table AS SELECT * FROM 'erp_table.parquet'")
     print("Table erp_table créée")
     
