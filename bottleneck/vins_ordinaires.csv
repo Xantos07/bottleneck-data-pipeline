@@ -1,0 +1,685 @@
+product_id	price	stock_quantity	post_title	z-score	category
+4974	23.0	2	Château du Couvent Pomerol 2017	-0.3413505239982634	ordinaires
+4165	12.0	57	Parés Baltà Penedès Indigena 2017	-0.7368842304178147	ordinaires
+4174	5.7	94	Maurel Cabardès Tradition 2017	-0.9634171713671942	ordinaires
+6635	22.4	23	Domaine de la Monardière Vacqueyras Vieilles Vignes 2016	-0.3629250898029662	ordinaires
+5796	12.5	12	Château Saransot-Dupré Bordeaux Blanc 2016	-0.7189054255805624	ordinaires
+6920	50.5	1	Château Jean Faure Saint-Emilion Grand Cru 2015	0.647483742050615	ordinaires
+4256	24.4	0	Domaine Huet Vouvray Haut-Lieu Sec 2017	-0.29100987045395693	ordinaires
+6106	74.8	15	Stéphane Tissot Château-Chalon 2011	1.5212536571410782	ordinaires
+5504	13.8	35	Château de la Selve Coteaux de l'Ardèche Blanc Saint-Régis Blanc 2019	-0.6721605330037063	ordinaires
+5956	17.2	12	Clos du Prieur Terrasses du Larzac 2018	-0.5499046601103905	ordinaires
+5522	48.4	10	Domaine Chambeyron Côte Rôtie L'Angéline 2017	0.5719727617341551	ordinaires
+4246	15.3	25	Domaine Saint-Denis Mâcon Lugny 2017	-0.6182241184919494	ordinaires
+4242	8.6	85	Parcé Frères Côtes du Roussillon Villages Zoé Rouge 2018	-0.8591401033111306	ordinaires
+4618	30.6	3	Alphonse Mellot Sancerre Rouge La Moussière 2014	-0.06807269047202787	ordinaires
+4625	52.4	3	Marcel Windholtz Eau de Vie de Sureau	0.7158032004321738	ordinaires
+5756	42.2	30	Huile d'Olive Extra Vierge Planeta Selezione Chef 3L	0.3490355817522263	ordinaires
+6222	26.4	10	Planeta Sicilia Passito di Noto 2016	-0.21909465110494758	ordinaires
+6207	25.2	363	Domaine Giudicelli Patrimonio Rouge 2016	-0.26224378271435317	ordinaires
+4153	29.0	0	Elian Daros Côtes du Marmandais Clos Baquey 2015	-0.12560486595123538	ordinaires
+6072	13.6	41	Clos du Mont-Olivet Côtes-du-Rhône Blanc 2019	-0.6793520549386072	ordinaires
+4148	37.5	18	Champagne Mailly Grand Cru Brut Rosé	0.18003481628205428	ordinaires
+5026	86.8	2	Champagne Agrapart &amp; Fils Minéral Extra Brut Blanc de Blancs Grand Cru 2012	1.9527449732351343	ordinaires
+5546	15.2	130	Thierry Germain Saumur-Champigny Cuvée Domaine 2018	-0.6218198794593999	ordinaires
+4733	16.8	13	Camin Larredya Jurançon Sec La Part Davant 2018	-0.5642877039801923	ordinaires
+4039	46.0	0	Pierre Jean Villa Côte Rôtie Carmina 2017	0.48567449851534394	ordinaires
+4605	32.2	1	Catherine et Claude Maréchal Savigny-Lès-Beaune Rouge 2016	-0.010540514992820353	ordinaires
+5891	19.0	4	Saumaize-Michelin Viré-Clessé 2018	-0.4851809626962821	ordinaires
+5715	13.7	35	François Baur Gewurztraminer Herrenweg de Turckheim 2016	-0.6757562939711568	ordinaires
+4130	23.0	0	Zind-Humbrecht Pinot Gris Roche Calcaire 2017	-0.3413505239982634	ordinaires
+5826	41.2	12	Agnès Levet Côte Rôtie Améthyste 2017	0.31307797207772164	ordinaires
+5611	63.4	1	Domaine Weinbach Riesling Grand Cru Schlossberg Cuvée Ste Catherine 2018	1.1113369068517251	ordinaires
+4156	20.35	1	Elian Daros Côtes du Marmandais Coucou Blanc 2016	-0.4366381896357007	ordinaires
+5818	63.5	19	Maison Trimbach Riesling Grand Cru Schlossberg 2015	1.1149326678191755	ordinaires
+4398	59.0	0	Wemyss Malts Blended Malt Scotch Whisky Peat Chimney Batch Strength	0.9531234242839046	ordinaires
+4232	11.1	35	Argentine Mendoza Alamos Chardonnay 2019	-0.7692460791248689	ordinaires
+4274	12.9	0	Domaine Sérol Vin Mousseux Rosé Turbullent Méthode Ancestrale	-0.7045223817107605	ordinaires
+5069	65.0	2	Albert Mann Pinot Noir Les Saintes Claires 2017	1.1688690823309327	ordinaires
+6664	35.6	38	Catherine et Claude Maréchal Savigny-Lès-Beaune Rouge 2017	0.11171535790049547	ordinaires
+4865	9.8	1	Mourgues du Grès Costières de Nîmes Capitelles Rosé 2018	-0.815990971701725	ordinaires
+5694	12.7	62	Philippe Nusswitz Duché d'Uzès Orénia Rouge Réserve 2016	-0.7117139036456614	ordinaires
+4213	58.8	2	Lucien Boillot Volnay 1er Cru Les Angles 2017	0.9459319023490036	ordinaires
+4908	53.2	5	Alphonse Mellot Sancerre Blanc Edmond 2016	0.7445692881717777	ordinaires
+5769	33.6	0	Camille Giroud Marsannay Rouge Les Longeroies 2016	0.03980013855148613	ordinaires
+4674	19.0	41	Domaine Pellé Sancerre Blanc La Croix Au Garde 2018	-0.4851809626962821	ordinaires
+5016	9.3	1	Château Tour Des Gendres Bergerac Blanc Cuvée Des Conti 2017	-0.8339697765389773	ordinaires
+5551	36.3	18	Thierry Germain Saumur-Champigny Franc De Pied 2017	0.13688568467264858	ordinaires
+4596	43.9	0	Marc Colin Et Fils Chassagne-Montrachet Blanc Margot 2017	0.4101635181988841	ordinaires
+4653	36.2	18	Thierry Germain Saumur-Champigny Franc De Pied 2016	0.13328992370519832	ordinaires
+4704	18.2	0	Albert Mann Gewurztraminer 2017	-0.5139470504358858	ordinaires
+4251	14.1	102	Domaine Saint-Denis Bourgogne Rouge Le Clos 2017	-0.6613732501013548	ordinaires
+4042	31.2	34	Pierre Gaillard Cornas 2017	-0.04649812466732515	ordinaires
+4900	20.8	42	Domaine Brintet Mercurey Rouge Vieilles Vignes 2018	-0.42045726528217364	ordinaires
+4976	16.45	26	Château Lafont Menaut Pessac-Leognan Rouge 2017	-0.576872867366269	ordinaires
+4937	9.9	28	Domaine Rouge Garance Côtes du Rhône Feuille de Garance 2019	-0.8123952107342746	ordinaires
+4915	25.9	14	Jean-Baptiste Arena Patrimonio Blanc Morta Maio	-0.23707345594219992	ordinaires
+4650	25.3	14	Thierry Germain Saumur Blanc L'Insolite 2018	-0.25864802174690266	ordinaires
+5552	57.7	12	Thierry Germain Saumur Blanc Clos Roman 2016	0.9063785317070486	ordinaires
+5563	58.0	0	Tempier Bandol Tourtine 2017	0.9171658146093999	ordinaires
+3849	34.3	0	Pierre Jean Villa Saint-Joseph Rouge Tildé 2017	0.06497046532363925	ordinaires
+4657	43.0	11	Thierry Germain Saumur-Champigny Outre Terre 2014	0.37780166949183	ordinaires
+4616	57.0	5	Alphonse Mellot Sancerre Rouge La Demoiselle 2015	0.8812082049348953	ordinaires
+6325	27.9	7	Tempier Bandol Blanc 2018	-0.16515823659319057	ordinaires
+4068	16.6	157	Gilles Robin Crozes-Hermitage Rouge Papillon 2019	-0.5714792259150933	ordinaires
+5486	49.5	5	Decelle-Villa Meursault 2018	0.6115261323761103	ordinaires
+5618	71.3	31	"Albert Boxler Riesling Grand Cru Sommerberg ""D"" 2018"	1.395402023280312	ordinaires
+4098	22.1	22	Paul Ginglinger Pinot Noir Les Rocailles 2016	-0.37371237270531754	ordinaires
+4154	9.8	128	Elian Daros Côtes du Marmandais Le Vin Est Une Fête 2017	-0.815990971701725	ordinaires
+4048	22.8	22	Pierre Gaillard Saint-Joseph Rouge Clos de Cuminaille 2018	-0.3485420459331643	ordinaires
+4152	19.2	57	Elian Daros Côtes du Marmandais Chante Coucou 2016	-0.47798944076138117	ordinaires
+5487	43.5	1	Decelle-Villa Nuits-Saint-Georges Rouge 2016	0.3957804743290823	ordinaires
+4676	12.9	73	Domaine Rotier Gaillac Blanc Doux Les Gravels 2016	-0.7045223817107605	ordinaires
+4612	20.6	49	Gilbert Picq Chablis Vieilles Vignes 2017	-0.42764878721707456	ordinaires
+4662	20.8	24	Pierre Martin Sancerre Les Monts Damnés 2018	-0.42045726528217364	ordinaires
+4933	18.4	30	Marcel Richaud Cairanne Rouge 2018	-0.5067555285009849	ordinaires
+4103	16.3	6	Emile Boeckel Riesling Grand Cru Wiebelsberg 2016	-0.5822665088174447	ordinaires
+4722	13.7	0	François Baur Pinot Gris Herrenweg de Turckheim 2018	-0.6757562939711568	ordinaires
+6107	62.4	4	Stéphane Tissot Arbois Vin Jaune En Spois 2011	1.0753792971772205	ordinaires
+4719	12.5	29	Domaine Schoenheitz Pinot Noir Tradition 2019	-0.7189054255805624	ordinaires
+5439	13.2	0	La Préceptorie Maury Sec Rouge Copain Comme Cochon 2018	-0.6937350988084091	ordinaires
+4778	13.9	0	Clos du Mont-Olivet Lirac Rosé Farel 2019	-0.668564772036256	ordinaires
+4564	21.7	60	Domaine Giudicelli Vin de France Eté Rouge 2018	-0.3880954165751195	ordinaires
+6204	31.0	7	Domaine Giudicelli Muscat du Cap Corse 2016	-0.053689646602226054	ordinaires
+5829	57.0	26	Agnès Levet Côte Rôtie Péroline 2017	0.8812082049348953	ordinaires
+5693	13.0	55	Philippe Nusswitz Duché d'Uzès Orénia Blanc Réserve 2018	-0.70092662074331	ordinaires
+4792	21.0	13	Maurice Schoech Riesling Grand Cru Kaefferkopf 2018	-0.41326574334727273	ordinaires
+5816	16.9	5	Maison Trimbach Riesling 2017	-0.560691943012742	ordinaires
+4190	12.1	0	Le Pas de l'Escalette Coteaux du Languedoc Ze Rozé 2019	-0.7332884694503642	ordinaires
+5903	27.3	1	Stéphane Tissot Arbois Trousseau Singulier 2017	-0.1867328023978933	ordinaires
+5061	52.6	24	Lucien Boillot Gevrey Chambertin Les Evocelles 2017	0.7229947223670748	ordinaires
+4227	12.6	49	La Cotelleraie Saint-Nicolas-de-Bourgueil La Croisée 2018	-0.7153096646131119	ordinaires
+6626	33.2	1	Weingut Besson-Strasser Zürich Räuschling 2018	0.025417094681684314	ordinaires
+5445	16.3	11	La Préceptorie Maury Blanc 2015	-0.5822665088174447	ordinaires
+4204	11.3	31	Mas Laval IGP Pays d'Hérault Les Pampres Rouges 2017	-0.762054557189968	ordinaires
+4163	10.8	18	Parés Baltà Penedès Calcari 2018	-0.7800333620272203	ordinaires
+4613	16.9	31	Gilbert Picq Chablis 2017	-0.560691943012742	ordinaires
+4726	12.7	0	François Baur Pinot Noir Schlittweg 2017	-0.7117139036456614	ordinaires
+5960	12.7	27	Domaine Labranche Laffont Pacherenc du Vic-Bilh Sec 2017	-0.7117139036456614	ordinaires
+4740	9.7	8	Jean-Paul Brun Beaujolais L'Ancien 2016	-0.8195867326691755	ordinaires
+4927	6.5	0	Domaine La Croix Belle Côtes de Thongue Rouge La Caringole 2018	-0.9346510836275904	ordinaires
+4239	28.0	18	Domaine Augustin Collioure Blanc Adéodat 2019	-0.16156247562574005	ordinaires
+4675	10.7	35	Domaine Rotier Gaillac Blanc Sec Renaissance 2015	-0.7836291229946708	ordinaires
+4297	19.0	26	Domaine de La Tour Du Bon Bandol Blanc 2019	-0.4851809626962821	ordinaires
+4626	52.9	2	Marcel Windholtz Eau de Vie de Prunelle Sauvage	0.7337820052694262	ordinaires
+4789	11.1	62	Maurice Schoech Pinot Noir 2018	-0.7692460791248689	ordinaires
+4681	7.1	178	Domaine de Joy Côtes de Gascogne Blanc Moelleux Saint-André 2018	-0.9130765178228876	ordinaires
+5000	27.3	0	David Duband Côtes de Nuits Villages 2017	-0.1867328023978933	ordinaires
+4598	41.8	61	Marc Colin Et Fils Saint-Aubin Blanc En Montceau 2017	0.3346525378824243	ordinaires
+4070	23.4	98	Gilles Robin Crozes-Hermitage Blanc Les Marelles 2018	-0.32696748012846155	ordinaires
+4046	80.0	0	Pierre Gaillard Côte Rôtie Rose Pourpre 2017	1.7082332274485026	ordinaires
+4597	61.6	0	Marc Colin Et Fils Chassagne-Montrachet Blanc Les Vide-Bourses 1er Cru 2016	1.0466132094376168	ordinaires
+4615	24.0	10	Alphonse Mellot Sancerre Blanc La Moussière 2018	-0.3053929143237587	ordinaires
+5389	16.1	5	Australie Maverick Breechens Blend 2012	-0.5894580307523456	ordinaires
+4049	19.3	46	Pierre Gaillard Saint-Joseph Rouge 2018	-0.47439367979393066	ordinaires
+6279	45.9	10	Borie de Maurel Minervois Rouge Maxime 2003	0.48207873754789343	ordinaires
+4630	62.4	3	Marcel Windholtz Eau de Vie de Coing	1.0753792971772205	ordinaires
+4776	6.8	11	Château de La Liquière Pays d'Hérault Blanc A Mi Chemin 2017	-0.923863800725239	ordinaires
+5506	18.2	63	Château de la Selve Coteaux de l'Ardèche Rouge Serre de Berty 2014	-0.5139470504358858	ordinaires
+4996	78.0	33	Domaine Peyre Rose Marlène N°3 2008	1.6363180080994932	ordinaires
+4709	44.0	0	Albert Mann Pinot Gris Vendanges Tardives Altenbourg 2011	0.4137592791663346	ordinaires
+4785	10.1	18	Maurice Schoech Pinot Auxerrois Vieilles Vignes 2018	-0.8052036887993735	ordinaires
+6887	21.8	24	Gratavinum Priorat 2?r 2017	-0.38449965560766897	ordinaires
+4147	33.0	7	Champagne Mailly Grand Cru Extra Brut Millésimé 2012	0.01822557274678328	ordinaires
+6035	17.9	21	Zind-Humbrecht Muscat Turckheim 2016	-0.5247343333382373	ordinaires
+4867	9.9	0	Château De La Selve IGP Coteaux de l'Ardèche Maguelonne Rosé 2019	-0.8123952107342746	ordinaires
+4257	31.7	0	Domaine Huet Vouvray Le Mont Moelleux 2015	-0.028519319830072814	ordinaires
+6884	46.5	12	Domino Romano Ribera del Duero RDR 2015	0.5036533033525963	ordinaires
+4715	11.1	30	Domaine Schoenheitz Pinot Blanc Val Saint Grégoire 2017	-0.7692460791248689	ordinaires
+6615	32.8	8	Clos du Mont-Olivet Châteauneuf-du-Pape 2018	0.011034050811882244	ordinaires
+5056	7.5	9	Domaine de Montgilet Anjou Rouge 2016	-0.8986934739530857	ordinaires
+4795	12.0	34	Emile Boeckel Crémant Brut Rosé	-0.7368842304178147	ordinaires
+5554	38.0	10	Thierry Germain Saumur-Champigny Clos de l'Echelier 2017	0.19801362111930662	ordinaires
+4748	14.5	14	Jean-Paul Brun Saint-Amour 2017	-0.646990206231553	ordinaires
+5900	18.25	0	Stéphane Tissot Arbois D.D. 2016	-0.5121491699521605	ordinaires
+4782	9.8	22	Paul Ginglinger Pinot Blanc 2017	-0.815990971701725	ordinaires
+4718	18.2	19	Domaine Schoenheitz Pinot Noir Val Saint Grégoire 2017	-0.5139470504358858	ordinaires
+4224	17.2	13	Pierre Martin Sancerre Chavignol Rouge 2017	-0.5499046601103905	ordinaires
+4928	7.9	1	Domaine La Croix Belle Côtes de Thongue Rouge Le Champ du Coq 2016	-0.8843104300832839	ordinaires
+4041	32.7	15	Pierre Gaillard Condrieu 2018	0.007438289844431981	ordinaires
+4078	44.0	14	Domaine des Bosquets Gigondas La Colline 2015	0.4137592791663346	ordinaires
+4191	9.3	209	Château de La Liquière Faugères Les Amandiers Rouge 2019	-0.8339697765389773	ordinaires
+4797	78.0	0	Domaine Peyre Rose Clos des Cistes 2008	1.6363180080994932	ordinaires
+4671	21.9	24	Domaine Pellé Menetou Salon Rouge Les Cris 2015	-0.38090389464021857	ordinaires
+4633	52.4	2	Marcel Windholtz Eau de Vie de Mirabelle d'Alsace Réserve Particulière	0.7158032004321738	ordinaires
+5002	64.9	1	David Duband Morey-Saint-Denis 1er Cru Les Broc 2016	1.1652733213634823	ordinaires
+4067	22.0	31	Gilles Robin Crozes-Hermitage Rouge Albéric 2017	-0.37730813367276805	ordinaires
+4187	13.3	90	Le Pas de l'Escalette Languedoc Les Petits Pas 2019	-0.6901393378409586	ordinaires
+4211	48.5	0	Lucien Boillot Pommard 2017	0.5755685227016056	ordinaires
+4272	9.2	25	Domaine Sérol Côte Roannaise Rosé Cabochard 2016	-0.8375655375064278	ordinaires
+4901	41.0	36	Domaine Des Croix Beaune 1er Cru Les Cent Vignes 2017	0.3058864501428206	ordinaires
+4107	35.0	35	Emile Boeckel Pinot Noir Terres Rouges 2016	0.09014079209579261	ordinaires
+4669	20.2	37	Domaine Pellé Menetou Salon Blanc Le Carroir 2018	-0.4420318310868765	ordinaires
+4155	14.5	70	Elian Daros Côtes du Marmandais Le Vignoble d'Elian 2016	-0.646990206231553	ordinaires
+6047	10.9	46	Château de La Liquière Faugères L'Ampoule 2019	-0.7764376010597699	ordinaires
+4392	49.5	13	Wemyss Malts Blended Malt Scotch Whisky Spice King	0.6115261323761103	ordinaires
+6127	10.6	66	Moulin de Gassac IGP Pays d'Hérault Rouge Mazet du Levant 2017	-0.7872248839621212	ordinaires
+4040	34.3	0	Pierre Jean Villa Saint-Joseph Saut De l'Ange 2018	0.06497046532363925	ordinaires
+4216	13.4	34	Domaine de l'Ecu Muscadet Classic 2018	-0.6865435768735082	ordinaires
+5068	59.9	1	Albert Mann Pinot Noir Grand P 2017	0.9854852729909588	ordinaires
+4231	11.1	0	Argentine Mendoza Alamos Malbec 2018	-0.7692460791248689	ordinaires
+4713	18.4	6	Domaine Schoenheitz Gewurztraminer Lisenberg 2015	-0.5067555285009849	ordinaires
+5547	24.6	32	Thierry Germain Saumur-Champigny Terres Chaudes 2017	-0.28381834851905585	ordinaires
+4716	18.6	7	Domaine Schoenheitz Pinot Gris Herrenreben 2017	-0.4995640065660839	ordinaires
+4601	16.1	31	Catherine et Claude Maréchal Bourgogne Aligoté 2018	-0.5894580307523456	ordinaires
+6104	33.2	0	Stéphane Tissot Arbois Blanc Savagnin 2015	0.025417094681684314	ordinaires
+6575	41.8	1	Marc Colin Et Fils Saint-Aubin 1er Cru La Chatenière 2017	0.3346525378824243	ordinaires
+7025	69.0	2	Domaine Jamet Côte Rôtie Fructus Voluptas 2018	1.3126995210289514	ordinaires
+6738	15.4	40	Emile Boeckel Crémant Chardonnay Extra Brut 2016	-0.614628357524499	ordinaires
+7023	27.5	15	Camin Larredya Jurançon Sec La Virada 2018	-0.1795412804629924	ordinaires
+4923	7.0	143	Cave de Castelmaure Corbières Rouge Vigneron 2018	-0.9166722787903381	ordinaires
+4954	25.0	0	Bon cadeau de 25€	-0.2694353046492541	ordinaires
+4356	51.6	5	Champagne Egly-Ouriet Premier Cru Les Vignes de Vrigny	0.6870371126925702	ordinaires
+4248	14.8	64	Domaine Saint-Denis Mâcon Chardonnay 2017	-0.6362029233292016	ordinaires
+5893	26.6	65	Gilbert Picq Chablis 1er Cru Vaucoupin 2016	-0.21190312917004653	ordinaires
+4172	5.7	167	Maurel Pays d'Oc Chardonnay 2019	-0.9634171713671942	ordinaires
+5477	19.8	38	Domaine Pellé Menetou Salon Blanc Les Vignes de Ratier 2018	-0.4564148749566783	ordinaires
+5743	57.0	0	Domaine Clerget Vosne-Romanée Les Violettes 2015	0.8812082049348953	ordinaires
+4858	6.5	257	Château Turcaud Bordeaux Rosé 2019	-0.9346510836275904	ordinaires
+5806	17.4	0	Château La Croix Meunier Saint-Emilion Grand Cru 2014	-0.5427131381754896	ordinaires
+4620	11.9	106	Bernard Baudry Chinon Rouge Les Granges 2018	-0.7404799913852652	ordinaires
+4401	62.5	1	Cognac Frapin VSOP	1.0789750581446709	ordinaires
+5760	13.1	37	Huile d'Olive Extra Vierge Planeta 50cl	-0.6973308597758595	ordinaires
+5777	5.7	132	Maurel Pays d'Oc Cabernet-Sauvignon 2017	-0.9634171713671942	ordinaires
+4219	16.7	0	Domaine de l'Ecu Muscadet Orthogneiss 2014	-0.5678834649476429	ordinaires
+4264	17.8	48	Chermette Domaine du Vissoux Moulin à Vent Les Trois Roches 2018	-0.5283300943056877	ordinaires
+5383	19.5	9	Nouvelle-Zélande Marlborough Kim Crawford Sauvignon Blanc 2015	-0.46720215785902974	ordinaires
+5969	69.0	0	Zind-Humbrecht Riesling Clos Windsbuhl 2014	1.3126995210289514	ordinaires
+4668	12.3	23	Xavier Frissant Touraine Amboise L'Orée des Frênes 2015	-0.7260969475154633	ordinaires
+6049	21.8	6	Christophe Pichon Saint-Joseph Blanc 2017	-0.38449965560766897	ordinaires
+4269	10.2	1	Domaine Sérol Côte Roannaise Les Originelles 2019	-0.8016079278319231	ordinaires
+5764	12.9	84	Parcé Frères Collioure Rouge Petit Gus 2018	-0.7045223817107605	ordinaires
+5827	55.0	11	Agnès Levet Côte Rôtie Maestria 2017	0.8092929855858859	ordinaires
+4714	13.3	25	Domaine Schoenheitz Muscat 2017	-0.6901393378409586	ordinaires
+4632	50.0	3	Marcel Windholtz Eau de Vie de Quetsch d'Alsace Réserve Particulière	0.6295049372133626	ordinaires
+4058	8.7	267	Mourgues du Grès Costières de Nîmes Galets Rouges 2019	-0.8555443423436802	ordinaires
+4636	50.0	4	Marcel Windholtz Eau de Vie de Framboise d'Alsace	0.6295049372133626	ordinaires
+5902	35.1	9	Stéphane Tissot Arbois Pinot Noir Sous La Tour 2016	0.09373655306324313	ordinaires
+5446	16.2	30	Parcé Frères Banyuls Rimage 2018	-0.5858622697848952	ordinaires
+4149	69.0	34	Champagne Mailly Grand Cru Intemporelle Rosé 2009	1.3126995210289514	ordinaires
+4965	7.1	203	Château Turcaud Entre-Deux-Mers 2019	-0.9130765178228876	ordinaires
+5820	63.5	7	Maison Trimbach Riesling Cuvée Frédéric Emile 2012	1.1149326678191755	ordinaires
+4208	7.6	578	Domaine Montrose Côtes de Thongue Rosé 2019	-0.8950977129856352	ordinaires
+4086	16.4	31	Rimauresq Côtes de Provence Blanc Cru Classé 2019	-0.5786707478499943	ordinaires
+4902	46.0	11	Domaine Des Croix Savigny-Lès-Beaune 1er Cru Les Peuillets 2015	0.48567449851534394	ordinaires
+4717	23.4	0	Domaine Schoenheitz Pinot Noir Herrenreben 2017	-0.32696748012846155	ordinaires
+4285	41.0	24	Château de Cazeneuve Pic Saint-Loup Le Sang Du Calvaire 2017	0.3058864501428206	ordinaires
+4749	11.9	140	Domaine de Montgilet Anjou Blanc 2016	-0.7404799913852652	ordinaires
+6666	48.5	24	Domaine Hauvette IGP Alpilles Dolia 2013	0.5755685227016056	ordinaires
+6038	48.5	11	I Fabbri Chianti Classico Gran Selezione 2015	0.5755685227016056	ordinaires
+4654	33.4	0	Thierry Germain Saumur-Champigny La Marginale 2016	0.032608616616585095	ordinaires
+5705	19.8	9	Domaine Huet Vouvray Pétillant Brut 2014	-0.4564148749566783	ordinaires
+4052	33.7	35	Clos du Mont-Olivet Châteauneuf-du-Pape Blanc 2019	0.043395899518936645	ordinaires
+5613	19.2	11	Albert Boxler Chasselas 2016	-0.47798944076138117	ordinaires
+4240	28.0	1	Domaine Augustin Collioure Rouge Adéodat 2017	-0.16156247562574005	ordinaires
+7338	16.3	45	Domaine Saint-Nicolas Vin de France Blanc Les Clous 2019	-0.5822665088174447	ordinaires
+5479	10.2	69	Domaine Bulliat Beaujolais Blanc 2019	-0.8016079278319231	ordinaires
+5766	35.6	30	Camille Giroud Auxey-Duresses Blanc 2017	0.11171535790049547	ordinaires
+4286	69.8	4	Domaine Hauvette Les Baux de Provence Amethyste 2017	1.341465608768555	ordinaires
+6622	42.2	12	Thierry Germain Saumur-Champigny Les Mémoires 2018	0.3490355817522263	ordinaires
+4728	29.5	20	Maurice Schoech Gewurztraminer Vendanges Tardives 2017	-0.10762606111398305	ordinaires
+4664	16.4	15	La Cotelleraie Saint-Nicolas-de-Bourgueil Le Vau Jaumier 2016	-0.5786707478499943	ordinaires
+4648	24.3	9	Bernard Baudry Chinon Blanc La Croix Boissée 2018	-0.2946056314214073	ordinaires
+5519	12.9	35	Domaine Chambeyron Côtes du Rhône 2017	-0.7045223817107605	ordinaires
+4299	39.1	18	Domaine de La Tour Du Bon Bandol Rouge Saint Ferréol 2018	0.2375669917612618	ordinaires
+4995	78.0	0	Domaine Peyre Rose Oro Blanc 2002	1.6363180080994932	ordinaires
+6573	68.3	12	Marc Colin Et Fils Chassagne-Montrachet 1er Cru Les Champs Gain 2017	1.287529194256798	ordinaires
+4734	15.3	36	Camin Larredya Jurançon Moelleux Costat Darrer 2018	-0.6182241184919494	ordinaires
+4221	12.8	83	Xavier Frissant Touraine Les Roses du Clos 2018	-0.7081181426782109	ordinaires
+6751	46.5	0	Château Simone Palette Blanc 2017	0.5036533033525963	ordinaires
+4171	7.8	65	Le Hameau Des Ollieux Monsieur Pinot 2017	-0.8879061910507343	ordinaires
+5695	6.5	123	Philippe Nusswitz IGP Cévènnes Rosé O Pale 2019	-0.9346510836275904	ordinaires
+5063	67.0	0	Lucien Boillot Pommard 1er Cru Les Croix Noires 2017	1.240784301679942	ordinaires
+4200	5.8	190	Moulin de Gassac IGP Pays d'Hérault Guilhem Rosé 2019	-0.9598214103997437	ordinaires
+5761	19.5	0	Huiles d'Olive Extra Vierge Planeta 3x 10cl	-0.46720215785902974	ordinaires
+4393	57.0	2	Wemyss Malts Blended Malt Scotch Whisky Vanilla Burst	0.8812082049348953	ordinaires
+6621	35.2	69	Thierry Germain Saumur-Champigny La Marginale 2018	0.09733231403069365	ordinaires
+5394	10.7	4	Chili Valdivieso Merlot 2017	-0.7836291229946708	ordinaires
+5608	30.5	20	Domaine Weinbach Gewurztraminer Cuvée Théo 2018	-0.07166845143947839	ordinaires
+4888	27.9	53	Saumaize-Michelin Pouilly-Fuissé Les Ronchevats 2018	-0.16515823659319057	ordinaires
+4260	12.2	22	Chermette Domaine du Vissoux Beaujolais Blanc Collonge 2017	-0.7296927084829138	ordinaires
+4178	11.5	12	Domaine de l'Hortus Pic Saint-Loup La Bergerie Rosé 2019	-0.754863035255067	ordinaires
+5753	10.1	101	Château de la Selve Vin de France Petite Selve 2019	-0.8052036887993735	ordinaires
+5396	17.1	34	Chili De Martino Gallardia Cinsault 2017	-0.5535004210778409	ordinaires
+5520	38.6	54	Domaine Chambeyron Côte Rôtie La Chavarine 2017	0.21958818692400947	ordinaires
+4283	27.0	58	Château de Cazeneuve Pic Saint-Loup Le Roc Des Mates 2017	-0.19752008530024473	ordinaires
+4258	32.1	0	Domaine Huet Vouvray Le Mont Sec 2017	-0.01413627596027087	ordinaires
+4799	14.9	56	Domaine de la Monardière Vacqueyras Les Deux Monardes 2017	-0.6326071623617513	ordinaires
+4680	6.3	34	Domaine de Joy Côtes de Gascogne Envie de Joy 2018	-0.9418426055624913	ordinaires
+5444	15.5	37	La Préceptorie Maury Rouge Cuvée Aurélie 2017	-0.6110325965570484	ordinaires
+4099	12.8	43	Paul Ginglinger Riesling Drei Exa 2018	-0.7081181426782109	ordinaires
+4176	13.5	276	Domaine de l'Hortus Pic Saint-Loup La Bergerie Rouge 2018	-0.6829478159060577	ordinaires
+4301	17.5	14	Domaine de La Tour Du Bon Bandol Rosé 2019	-0.5391173772080391	ordinaires
+4205	23.0	0	Mas Laval Terrasses du Larzac La Grande Cuvée 2016	-0.3413505239982634	ordinaires
+6585	19.0	38	La Préceptorie Côtes du Roussillon Blanc Terres Nouvelles 2018	-0.4851809626962821	ordinaires
+4261	9.9	89	Chermette Domaine du Vissoux Beaujolais Griottes 2018	-0.8123952107342746	ordinaires
+4179	24.0	73	Domaine de l'Hortus Pic Saint-Loup La Grande Cuvée 2018	-0.3053929143237587	ordinaires
+5561	58.0	0	Tempier Bandol Migoua 2017	0.9171658146093999	ordinaires
+6930	8.4	83	Mouthes Le Bihan Côtes de Duras L'Aimé Chai 2015	-0.8663316252460316	ordinaires
+5899	28.1	0	Stéphane Tissot Arbois Blanc Les Bruyères 2015	-0.15796671465828954	ordinaires
+6050	38.5	0	Christophe Pichon Condrieu 2017	0.21599242595655896	ordinaires
+4892	20.1	34	Jacqueson Rully Rouge Les Chaponnières 2018	-0.4456275920543269	ordinaires
+5628	25.0	20	Parés Baltà Penedès Hisenda Miret 2013	-0.2694353046492541	ordinaires
+6570	29.2	0	Decelle-Villa Marsannay Les Longeroies 2015	-0.11841334401633448	ordinaires
+5907	17.7	5	Domaine de Montbourgeau Vin de Paille 2013	-0.5319258552731382	ordinaires
+4400	44.0	0	Cognac Frapin 1270	0.4137592791663346	ordinaires
+4250	19.5	14	Domaine Saint-Denis Bourgogne Rouge Clos de la Coque 2018	-0.46720215785902974	ordinaires
+4647	28.5	48	Bernard Baudry Chinon Rouge La Croix Boissée 2017	-0.14358367078848772	ordinaires
+5384	28.8	0	Liban Vallée de la Békaa Château Marsyas 2012	-0.1327963878861363	ordinaires
+6572	44.0	0	Decelle-Villa Saint-Aubin 1er Cru Sous Roche Dumay 2015	0.4137592791663346	ordinaires
+4228	29.9	8	Domaine de Bellivière Jasnières Les Rosiers 2015	-0.09324301724418124	ordinaires
+4686	14.0	6	Cosse Maisonneuve Cahors Solis 2018	-0.6649690110688053	ordinaires
+4198	5.8	105	Moulin de Gassac IGP Pays d'Hérault Guilhem Rouge 2019	-0.9598214103997437	ordinaires
+4603	31.5	39	Catherine et Claude Maréchal Ladoix Rouge Les Chaillots 2017	-0.03571084176497372	ordinaires
+5609	38.6	25	Domaine Weinbach Riesling Cuvée Colette 2018	0.21958818692400947	ordinaires
+4158	18.5	0	Planeta Sicilia Etna Rosso 2018	-0.5031597675335344	ordinaires
+6221	23.5	3	Planeta Sicilia Eruzione 1614 2017	-0.32337171916101104	ordinaires
+4277	24.8	0	I Fabbri Chianti Classico Riserva 2015	-0.276626826584155	ordinaires
+5967	56.3	9	Zind-Humbrecht Gewurztraminer Clos Windsbuhl 2012	0.8560378781627419	ordinaires
+4358	77.0	0	Champagne Larmandier-Bernier Grand Cru Vieilles Vignes du Levant 2008	1.6003603984249886	ordinaires
+4627	58.3	1	Marcel Windholtz Eau de Vie de Poire Williams Réserve Particulière	0.9279530975117513	ordinaires
+4267	19.0	21	Domaine Bulliat Morgon Amphore Cou de Jus 2019	-0.4851809626962821	ordinaires
+4977	16.3	47	Château Lafont Menaut Pessac-Leognan Blanc 2017	-0.5822665088174447	ordinaires
+4683	9.1	42	Château Plaisance Fronton Rosé 2019	-0.8411612984738782	ordinaires
+4217	17.1	17	Domaine de l'Ecu Muscadet Granite 2018	-0.5535004210778409	ordinaires
+4665	14.4	6	Vincent Carême Vouvray Sec 2018	-0.6505859671990036	ordinaires
+4271	16.6	56	Domaine Sérol Côte Roannaise Perdrizière 2016	-0.5714792259150933	ordinaires
+5630	28.0	1	Parés Baltà Penedès Electio 2013	-0.16156247562574005	ordinaires
+5795	23.0	18	Château de Chantegrive Graves Blanc Caroline 2016	-0.3413505239982634	ordinaires
+4194	10.8	5	Château de La Liquière Faugères 2017	-0.7800333620272203	ordinaires
+4759	16.9	49	Domaine Saint-Nicolas Fiefs Vendéens Rouge Reflets 2018	-0.560691943012742	ordinaires
+4940	20.5	44	Oratoire Saint Martin Cairanne Blanc Haut-Coustias 2017	-0.43124454818452507	ordinaires
+4202	38.0	46	Mas de Daumas Gassac IGP Saint-Guilhem-le-Désert Blanc 2019	0.19801362111930662	ordinaires
+4912	25.9	10	Jean-Baptiste Arena Patrimonio Rouge Grotte Di Sole 2018	-0.23707345594219992	ordinaires
+4350	79.5	20	Champagne Egly-Ouriet Grand Cru Extra Brut V.P.	1.6902544226112504	ordinaires
+3850	20.8	0	Pierre Jean Villa Crozes-Hermitage Accroche Coeur 2018	-0.42045726528217364	ordinaires
+4032	14.1	0	Pierre Jean Villa IGP Collines Rhodaniennes Gamine 2018	-0.6613732501013548	ordinaires
+6886	42.0	0	Gratavinum Priorat GV5 2011	0.3418440598173253	ordinaires
+5484	21.6	0	David-Beaupère Juliénas Vayolette 2017	-0.3916911775425699	ordinaires
+4254	26.9	0	Domaine Huet Vouvray Haut-Lieu Demi-Sec 2015	-0.20111584626769524	ordinaires
+5958	8.7	44	Domaine Labranche Laffont Madiran Tradition 2016	-0.8555443423436802	ordinaires
+4288	26.7	8	Domaine Hauvette IGP Alpilles Jaspe 2017	-0.20830736820259615	ordinaires
+5614	19.2	39	Albert Boxler Crémant d'Alsace Brut 2014	-0.47798944076138117	ordinaires
+5712	57.6	0	Albert Mann Gewurztraminer Vendanges Tardives Altenbourg 2015	0.9027827707395981	ordinaires
+4151	13.7	0	Elian Daros Côtes du Marmandais Abouriou 2016	-0.6757562939711568	ordinaires
+6627	41.8	16	Weingut Besson-Strasser Zürich Fumé 2017	0.3346525378824243	ordinaires
+6631	47.2	12	Weingut Besson-Strasser Zürich Pinot Noir Albi 2016	0.5288236301247496	ordinaires
+4930	17.5	9	Domaine La Croix Belle Côtes de Thongue Blanc N°7 2018	-0.5391173772080391	ordinaires
+6926	49.9	24	Château Jean Faure Saint-Emilion Grand Cru 2016	0.6259091762459121	ordinaires
+4300	44.0	15	Domaine de La Tour Du Bon Bandol Rouge En Sol 2017	0.4137592791663346	ordinaires
+5483	17.9	22	David-Beaupère Juliénas La Bottière Vieilles Vignes 2018	-0.5247343333382373	ordinaires
+5696	17.5	35	Planeta Sicilia Etna Bianco 2018	-0.5391173772080391	ordinaires
+4677	9.5	161	Domaine Rotier Gaillac Rouge Les Gravels 2016	-0.8267782546040764	ordinaires
+5963	13.5	28	Domaine de l'Ancienne Cure Bergerac Blanc Sec L'Abbaye 2016	-0.6829478159060577	ordinaires
+5619	71.3	13	"Albert Boxler Riesling Grand Cru Sommerberg ""E"" 2018"	1.395402023280312	ordinaires
+4963	7.0	289	Château Turcaud Bordeaux Rouge 2016	-0.9166722787903381	ordinaires
+4907	22.9	6	Alphonse Mellot Coteaux Charitois Rouge Les Pénitents 2015	-0.3449462849657139	ordinaires
+4929	16.7	4	Domaine La Croix Belle Côtes de Thongue Rouge N°7 2017	-0.5678834649476429	ordinaires
+4920	24.4	1	Alain Graillot Crozes-Hermitage Blanc 2018	-0.29100987045395693	ordinaires
+4193	13.5	55	Château de La Liquière Faugères Cistus Blanc 2019	-0.6829478159060577	ordinaires
+4203	9.9	89	Mas Laval IGP Pays d'Hérault Les Pampres Blancs 2018	-0.8123952107342746	ordinaires
+4207	6.7	195	Domaine Montrose Côtes de Thongue Rouge 2018	-0.9274595616926895	ordinaires
+4210	79.8	0	Lucien Boillot Nuits-Saint-Georges 1er Cru Les Pruliers 2017	1.7010417055136016	ordinaires
+4137	29.8	0	Zind-Humbrecht Muscat Grand Cru Goldert 2015	-0.09683877821163163	ordinaires
+4794	41.6	0	Maurice Schoech Riesling Grand Cru Rangen de Thann 2014	0.32746101594752347	ordinaires
+5474	42.0	0	Domaine Saint-Nicolas Fiefs Vendéens Rouge La Grande Pièce 2013	0.3418440598173253	ordinaires
+4399	59.0	6	Wemyss Malts Blended Malt Scotch Whisky Spice King Batch Strength	0.9531234242839046	ordinaires
+4780	13.7	12	Maurice Schoech Crémant d'Alsace Brut Rosé Bulles de Granite	-0.6757562939711568	ordinaires
+4753	12.0	76	Domaine de Montgilet Coteaux de l'Aubance 2017	-0.7368842304178147	ordinaires
+4899	21.2	35	Domaine Brintet Mercurey Blanc Vieilles Vignes 2018	-0.4060742214123718	ordinaires
+6093	12.6	0	Château de Villeneuve Saumur-Champigny 2017	-0.7153096646131119	ordinaires
+5703	29.4	1	Domaine de l'Ecu Muscadet Taurus 2012	-0.11122182208143358	ordinaires
+4364	49.5	6	Wemyss Malts Blended Malt Scotch Whisky The Hive	0.6115261323761103	ordinaires
+4909	25.9	27	Antoine-Marie Arena Vin de France Bianco Gentile 2018	-0.23707345594219992	ordinaires
+5894	15.4	18	Thevenet Quintaine Viré-Clessé Emilian Gillet 2017	-0.614628357524499	ordinaires
+6129	5.2	30	Moulin de Gassac IGP Pays d'Hérault Guilhem Blanc 2017	-0.9813959762044465	ordinaires
+5006	48.7	0	David Duband Nuits-Saint-Georges 2017	0.5827600446365067	ordinaires
+5747	24.5	1	Thibaud Boudignon Anjou Blanc 2018	-0.2874141094865064	ordinaires
+5773	32.8	18	Decelle-Villa Auxey-Duresses Blanc 2017	0.011034050811882244	ordinaires
+4739	7.4	50	Jean-Paul Brun Beaujolais Le Ronsay 2016	-0.9022892349205363	ordinaires
+6578	40.0	0	Saumaize-Michelin Pouilly-Fuissé Ampélopsis 2016	0.26992884046831594	ordinaires
+4889	25.3	0	Saumaize-Michelin Pouilly-Fuissé Vignes Blanches 2018	-0.25864802174690266	ordinaires
+5914	36.0	2	Darnley's London Dry Gin Spiced	0.12609840177029727	ordinaires
+4353	79.5	11	Champagne Egly-Ouriet Grand Cru Brut Rosé	1.6902544226112504	ordinaires
+5804	25.0	0	Château Le Puy Bordeaux Côtes-de-Francs Emilien 2016	-0.2694353046492541	ordinaires
+5968	71.5	18	Zind-Humbrecht Pinot Gris Clos Windsbuhl 2013	1.402593545215213	ordinaires
+4060	11.9	73	Mourgues du Grès Costières de Nîmes Terre d'Argence 2017	-0.7404799913852652	ordinaires
+6094	13.4	2	Château de Villeneuve Saumur-Champigny Clos de la Bienboire 2018	-0.6865435768735082	ordinaires
+5768	35.6	0	Camille Giroud Maranges Rouge 1er Cru Le Croix Moines 2016	0.11171535790049547	ordinaires
+4201	38.0	69	Mas de Daumas Gassac IGP Saint-Guilhem-le-Désert 2018	0.19801362111930662	ordinaires
+4750	16.4	45	Domaine de Montgilet Anjou Rouge Les Yvonnais 2015	-0.5786707478499943	ordinaires
+4619	59.0	5	Alphonse Mellot Sancerre Rouge En Grands Champs 2012	0.9531234242839046	ordinaires
+6632	52.7	2	Weingut Besson-Strasser Zürich Pinot Noir Chlosterberg 2016	0.7265904833345254	ordinaires
+4307	10.9	0	Domaine de l'Idylle Savoie Mondeuse Le Tithonien 2018	-0.7764376010597699	ordinaires
+5019	19.8	0	Château Tour Des Gendres Bergerac Blanc Moulin Des Dames 2016	-0.4564148749566783	ordinaires
+4730	14.3	6	Domaine Muré Crémant d'Alsace Cuvée Prestige	-0.6541817281664539	ordinaires
+6103	40.7	0	Stéphane Tissot Arbois Trousseau Amphore 2017	0.2950991672404693	ordinaires
+5573	34.7	5	Domaine Huet Vouvray Le Clos du Bourg Demi-Sec 2017	0.07935350919344132	ordinaires
+4786	12.1	37	Maurice Schoech Gewurztraminer 2018	-0.7332884694503642	ordinaires
+4863	8.2	0	Château Ollieux Romanis Corbières Rosé Classique 2019	-0.8735231471809325	ordinaires
+6205	20.2	109	Domaine Giudicelli Vin de France Corail Rouge 2019	-0.4420318310868765	ordinaires
+4173	5.7	100	Maurel Pays d'Oc Chenin-Colombard 2019	-0.9634171713671942	ordinaires
+5523	60.4	16	Domaine Chambeyron Côte Rôtie Lancement 2017	1.0034640778282111	ordinaires
+4073	77.8	11	Château de Vaudieu Châteauneuf-du-Pape L'Avenue 2015	1.6291264861645922	ordinaires
+4223	9.7	180	Xavier Frissant Touraine Sauvignon 2019	-0.8195867326691755	ordinaires
+4609	11.8	237	François Bergeret Hautes Côtes de Beaune Rouge 2017	-0.7440757523527156	ordinaires
+4689	12.8	6	Domaine Plageoles Côtes du Tarn Blanc Sec Ondenc	-0.7081181426782109	ordinaires
+4164	7.6	19	Parés Baltà Penedès Mas Petit 2015	-0.8950977129856352	ordinaires
+4197	9.4	24	Château de La Liquière Faugères Les Amandiers Rosé 2019	-0.8303740155715269	ordinaires
+4084	23.2	14	"Rimauresq Côtes de Provence Rouge Cru Classé ""R"" 2017"	-0.33415900206336246	ordinaires
+5932	59.9	3	Cognac Normandin Mercier VFC	0.9854852729909588	ordinaires
+5566	27.5	17	Le Pas de l'Escalette Terrasses du Larzac Le Grand Pas 2018	-0.1795412804629924	ordinaires
+5617	27.8	12	Albert Boxler Pinot Gris Réserve 2016	-0.16875399756064097	ordinaires
+7247	54.8	23	Clos du Mont-Olivet Châteauneuf-du-Pape 2007	0.8021014636509849	ordinaires
+6041	71.7	4	Château de Vaudieu Châteauneuf-du-Pape Amiral G 2015	1.409785067150114	ordinaires
+4629	52.4	3	Marcel Windholtz Eau de Vie de Fraise	0.7158032004321738	ordinaires
+5062	45.0	4	Lucien Boillot Gevrey Chambertin 2017	0.44971688884083927	ordinaires
+5548	48.8	6	Thierry Germain Saumur-Champigny Outre Terre 2017	0.586355805603957	ordinaires
+5564	30.8	21	Tempier Bandol Rouge 2017	-0.06088116853712696	ordinaires
+4196	27.2	13	Château de La Liquière Faugères Tucade 2015	-0.19032856336534382	ordinaires
+4337	83.0	13	Champagne Mailly Grand Cru Les Echansons 2007	1.8161060564720166	ordinaires
+4727	26.0	33	Paul Ginglinger Riesling Grand Cru Pfersigberg 2018	-0.2334776949747494	ordinaires
+4918	37.2	0	Alain Graillot Crozes-Hermitage Rouge La Guiraude 2016	0.169247533379703	ordinaires
+4094	13.7	24	Paul Ginglinger Gewurztraminer Wahlenbourg 2017	-0.6757562939711568	ordinaires
+4275	14.9	14	I Fabbri Chianti Classico Lamole 2017	-0.6326071623617513	ordinaires
+5481	11.5	46	Domaine Bulliat Moulin-à-Vent 2017	-0.754863035255067	ordinaires
+4139	77.4	7	Zind-Humbrecht Gewurztraminer Grand Cru Rangen De Thann Clos Saint-Urbain 2013	1.6147434422947906	ordinaires
+4076	14.05	53	Plateau des Chênes Lirac 2016	-0.6631711305850801	ordinaires
+4405	68.1	6	Cognac Frapin Château de Fontpinot XO 1/2	1.2803376723218969	ordinaires
+4670	17.0	93	Domaine Pellé Menetou Salon Blanc Morogues 2018	-0.5570961820452914	ordinaires
+4939	12.9	0	Oratoire Saint Martin Cairanne Blanc Réserve des Seigneurs 2018	-0.7045223817107605	ordinaires
+4265	9.6	21	Domaine Bulliat Beaujolais Villages Bibine 2018	-0.8231824936366259	ordinaires
+4962	11.3	95	Château Turcaud Bordeaux Blanc Cuvée Majeure 2018	-0.762054557189968	ordinaires
+4649	16.5	5	Bernard Baudry Chinon Blanc 2018	-0.5750749868825438	ordinaires
+3847	24.2	0	Pierre Jean Villa Saint-Joseph Préface 2018	-0.29820139238885784	ordinaires
+4263	15.8	50	Chermette Domaine du Vissoux Fleurie Poncié 2018	-0.600245313654697	ordinaires
+6628	32.2	31	Weingut Besson-Strasser Zürich Blauer Zweigelt 2016	-0.010540514992820353	ordinaires
+4673	19.8	35	Domaine Pellé Sancerre Rouge La Croix Au Garde 2017	-0.4564148749566783	ordinaires
+5610	18.0	11	Domaine Weinbach Pinot Blanc 2017	-0.5211385723707868	ordinaires
+5770	34.4	54	Camille Giroud Santenay Blanc 2017	0.06856622629108976	ordinaires
+5951	74.5	6	Domaine de Vaccelli AOP Ajaccio Rouge Granit 174 2017	1.510466374238727	ordinaires
+5778	5.8	36	Maurel Pays d'Oc Merlot 2018	-0.9598214103997437	ordinaires
+4678	29.8	30	Domaine Rotier Gaillac Rouge L'Ame 2016	-0.09683877821163163	ordinaires
+6206	25.2	120	Domaine Giudicelli Patrimonio Blanc 2019	-0.26224378271435317	ordinaires
+4097	12.8	26	Paul Ginglinger Pinot Gris Les Prelats 2018	-0.7081181426782109	ordinaires
+5913	36.0	9	Darnley's London Dry Gin Original	0.12609840177029727	ordinaires
+4558	28.1	96	Domaine de Montcalmès Terrasses du Larzac Rouge 2017	-0.15796671465828954	ordinaires
+4628	39.6	2	Marcel Windholtz Eau de Vie de Marc de Muscat	0.2555457965985141	ordinaires
+6042	8.5	0	Domaine La Croix Belle Côtes de Thongue Rosé Les Grillons 2019	-0.8627358642785811	ordinaires
+4229	9.6	26	Mérieau Touraine L'Arpent des Vaudons 2018	-0.8231824936366259	ordinaires
+4758	24.3	22	Domaine Saint-Nicolas Fiefs Vendéens Rouge Cuvée Jacques 2016	-0.2946056314214073	ordinaires
+5010	55.6	17	Domaine des Comtes Lafon Monthélie 1er Cru Les Duresses 2017	0.8308675513905888	ordinaires
+5380	18.0	24	Nouvelle-Zélande Marlborough Momo Sauvignon Blanc 2018	-0.5211385723707868	ordinaires
+5706	10.3	22	Domaine des Terres d'Ocre Saint-Pourçain Blanc Instant T 2018	-0.7980121668644726	ordinaires
+5550	34.3	0	Thierry Germain Saumur-Champigny La Marginale 2017	0.06497046532363925	ordinaires
+4262	15.8	35	Chermette Domaine du Vissoux Brouilly Pierreux 2018	-0.600245313654697	ordinaires
+5890	19.3	55	Saumaize-Michelin Saint-Véran Les Crèches 2018	-0.47439367979393066	ordinaires
+6108	46.0	0	Gilles Robin Cornas 2016	0.48567449851534394	ordinaires
+4862	9.9	168	Philippe Nusswitz Duché d'Uzès Orénia Blanc 2018	-0.8123952107342746	ordinaires
+6616	15.4	8	Clos du Mont-Olivet Lirac Rouge 2017	-0.614628357524499	ordinaires
+4180	24.0	47	Domaine de l'Hortus Val de Montferrand La Grande Cuvée Blanc 2018	-0.3053929143237587	ordinaires
+5024	45.0	0	Champagne Agrapart &amp; Fils Les 7 Crus Brut Blanc de Blancs	0.44971688884083927	ordinaires
+4104	9.7	37	Emile Boeckel Riesling Brandluft 2018	-0.8195867326691755	ordinaires
+5443	23.6	2	La Rectorie Banyuls Léon Parcé 2016	-0.3197759581935605	ordinaires
+4893	27.9	0	Jacqueson Rully Rouge 1er Cru Les Cloux 2018	-0.16515823659319057	ordinaires
+6101	36.9	16	Stéphane Tissot Arbois Blanc La Mailloche 2016	0.15846025047735143	ordinaires
+5491	26.5	15	Marc Colin Et Fils Santenay Rouge 2017	-0.21549889013749707	ordinaires
+4910	17.3	0	Antoine-Marie Arena Vin de France Rouge San Giovanni 2017	-0.54630889914294	ordinaires
+6568	72.0	19	Decelle-Villa Chambolle-Musigny 2017	1.4205723500524654	ordinaires
+6109	39.2	0	Gilles Robin Saint-Joseph Rouge André Péalat 2010	0.24116275272871232	ordinaires
+4177	13.5	109	Domaine de l'Hortus Val de Montferrand La Bergerie Blanc 2018	-0.6829478159060577	ordinaires
+4978	18.5	0	Château Dutruch Grand Poujeaux Moulis 2016	-0.5031597675335344	ordinaires
+4102	16.3	16	Emile Boeckel Sylvaner Grand Cru Zotzenberg 2017	-0.5822665088174447	ordinaires
+5794	21.7	34	Château Fonréaud Bordeaux Blanc Le Cygne 2016	-0.3880954165751195	ordinaires
+4788	12.3	21	Maurice Schoech Pinot Gris 2018	-0.7260969475154633	ordinaires
+4914	25.9	6	Antoine-Marie Arena Patrimonio Hauts de Carco 2018	-0.23707345594219992	ordinaires
+4281	11.6	4	Château de Cazeneuve Val de Montferrand Rouge Caza Sorix 2019	-0.7512672742876165	ordinaires
+5525	12.0	0	Domaine Chambeyron Vin de Pays des Collines Rhodaniennes Viognier 2016	-0.7368842304178147	ordinaires
+4359	85.6	0	Champagne Larmandier-Bernier Grand Cru Les Chemins d'Avize 2011	1.9095958416257286	ordinaires
+4186	16.6	0	Le Pas de l'Escalette Terrasses du Larzac Les Clapas Rouge 2018	-0.5714792259150933	ordinaires
+4101	15.8	37	Emile Boeckel Pinot Gris Grand Cru Zotzenberg 2016	-0.600245313654697	ordinaires
+4391	49.5	7	Wemyss Malts Blended Malt Scotch Whisky Peat Chimney	0.6115261323761103	ordinaires
+5398	39.0	10	Chili Montsecano (Ostertag) Pinot Noir 2013	0.2339712307938113	ordinaires
+4621	16.5	49	Bernard Baudry Chinon Rouge Les Grézeaux 2017	-0.5750749868825438	ordinaires
+5741	73.3	0	Domaine Clerget Chambolle-Musigny Les Charmes 2015	1.4673172426293213	ordinaires
+4241	8.9	7	Parcé Frères IGP Côtes Catalanes Hommage à Fernand Blanc 2019	-0.8483528204087792	ordinaires
+4791	13.6	24	Maurice Schoech Pinot Noir Pièce de Chêne 2016	-0.6793520549386072	ordinaires
+4934	22.2	57	Marcel Richaud Rasteau Rouge 2017	-0.37011661173786714	ordinaires
+5629	10.3	51	Parés Baltà Cava Brut Nature	-0.7980121668644726	ordinaires
+4635	62.4	3	Marcel Windholtz Eau de Vie de Kirsch d'Alsace Réserve Particulière	1.0753792971772205	ordinaires
+5544	61.6	0	Marc Colin Et Fils Chassagne-Montrachet Blanc Les Vide-Bourses 1er Cru 2016	1.0466132094376168	ordinaires
+5711	25.0	35	Albert Mann Riesling Cuvée Albert 2017	-0.2694353046492541	ordinaires
+5485	33.4	13	Decelle-Villa Savigny-Lès-Beaune Blanc 2018	0.032608616616585095	ordinaires
+4708	32.6	15	Albert Mann Pinot Gris Grand Cru Furstentum 2016	0.003842528876981463	ordinaires
+4931	27.8	11	Marcel Richaud Cairanne Rouge L'Ebrescade 2017	-0.16875399756064097	ordinaires
+5697	29.9	1	Planeta Sicilia Noto Santa Cecilia 2016	-0.09324301724418124	ordinaires
+4646	21.5	34	Bernard Baudry Chinon Rouge Le Clos Guillot 2017	-0.3952869385100204	ordinaires
+5964	16.3	11	Domaine de l'Ancienne Cure Pécharmant L'Abbaye 2015	-0.5822665088174447	ordinaires
+4706	16.8	23	Albert Mann Muscat 2018	-0.5642877039801923	ordinaires
+5707	10.8	13	Domaine des Terres d'Ocre Saint-Pourçain Rouge Instant T 2015	-0.7800333620272203	ordinaires
+5379	11.1	26	Argentine Mendoza Alamos Torrontes 2017	-0.7692460791248689	ordinaires
+4225	16.9	20	Pierre Martin Sancerre Chavignol Blanc 2019	-0.560691943012742	ordinaires
+4752	27.9	42	Domaine de Montgilet Coteaux de l'Aubance Les Trois Schistes 2016	-0.16515823659319057	ordinaires
+6617	9.9	12	Clos du Mont-Olivet Vins de Pays du Gard Rive Droite 2018	-0.8123952107342746	ordinaires
+4043	60.0	12	Pierre Gaillard Côte Rôtie Esprit de Blonde 2017	0.9890810339584093	ordinaires
+4270	15.5	31	Domaine Sérol Côte Roannaise Les Millerands 2018	-0.6110325965570484	ordinaires
+4280	18.9	46	Château de Cazeneuve Languedoc Blanc 2016	-0.4887767236637326	ordinaires
+5797	17.2	123	Château Saransot-Dupré Listrac-Médoc 2016	-0.5499046601103905	ordinaires
+4779	7.8	163	Clos du Mont-Olivet Vin de France La Sabonite	-0.8879061910507343	ordinaires
+4268	15.2	55	Domaine Bulliat Morgon Le Colombier 2019	-0.6218198794593999	ordinaires
+4600	26.5	0	Marc Colin Et Fils Chassagne-Montrachet Rouge Vieilles Vignes 2017	-0.21549889013749707	ordinaires
+5896	24.7	17	Thevenet Quintaine Viré-Clessé La Bongran 2015	-0.2802225875516055	ordinaires
+5397	24.0	6	Chili De Martino Viejas Tinajas Cinsault 2013	-0.3053929143237587	ordinaires
+6618	13.5	2	Clos du Mont-Olivet Vins de Pays du Gard Confluence 2017	-0.6829478159060577	ordinaires
+4611	26.2	27	Gilbert Picq Chablis Vosgros 1er Cru 2017	-0.2262861730398485	ordinaires
+4167	14.3	36	Ollieux Romanis Corbières Rouge Cuvée Prestige 2017	-0.6541817281664539	ordinaires
+4913	28.0	16	Jean-Batiste Arena Muscat du Cap Corse 2015	-0.16156247562574005	ordinaires
+6128	10.6	50	Moulin de Gassac IGP Pays d'Hérault Blanc Faune 2017	-0.7872248839621212	ordinaires
+6569	29.0	6	Decelle-Villa Chorey-Lès-Beaune 2016	-0.12560486595123538	ordinaires
+4634	41.0	4	Marcel Windholtz Eau de Vie de Marc de Gewurztraminer	0.3058864501428206	ordinaires
+6629	37.7	25	Weingut Besson-Strasser Zürich Pinot Noir Cholfirst 2017	0.1872263382169553	ordinaires
+5771	38.4	3	Camille Giroud Santenay Rouge 1er Cru Clos Rousseau 2016	0.21239666498910842	ordinaires
+4081	39.0	0	Le Vieux Donjon Châteauneuf-du-Pape 2016	0.2339712307938113	ordinaires
+4394	59.8	0	Wemyss Malts Blended Malt Scotch Whisky Treacle Chest	0.9818895120235083	ordinaires
+4651	49.0	21	Thierry Germain Saumur Blanc Terres 2014	0.593547327538858	ordinaires
+5799	40.2	0	Château Carbonnieux Graves Blanc 2017	0.27712036240321697	ordinaires
+4056	12.7	0	Clos du Mont-Olivet Côtes-du-Rhône Vieilles Vignes 2018	-0.7117139036456614	ordinaires
+4395	27.5	8	Wemyss Malts Blended Scotch Whisky Lord Elcho	-0.1795412804629924	ordinaires
+5742	42.1	0	Domaine Clerget Chambolle-Musigny 2014	0.3454398207847758	ordinaires
+5448	7.2	0	Parcé Frères Côtes du Roussillon Villages Hommage à Fernand 2017	-0.9094807568554372	ordinaires
+6278	9.0	69	Borie de Maurel Minervois Rouge Esprit d'Automne 2019	-0.8447570594413287	ordinaires
+5480	10.4	37	Domaine Bulliat Chiroubles Cuvée Félix 2019	-0.7944164058970222	ordinaires
+6225	20.4	0	Le Pas de l'Escalette IGP Hérault Ze Cinsault 2017	-0.4348403091519756	ordinaires
+5962	30.0	22	Camin Larredya Jurançon Moelleux Au Capcéu 2018	-0.08964725627673072	ordinaires
+5959	15.4	32	Domaine Labranche Laffont Madiran Vieilles Vignes 2015	-0.614628357524499	ordinaires
+4095	12.6	19	Paul Ginglinger Muscat Caroline 2018	-0.7153096646131119	ordinaires
+4938	12.5	0	Domaine Rouge Garance Côtes du Rhône Villages Garances 2016	-0.7189054255805624	ordinaires
+5704	16.9	5	Domaine de l'Ecu Muscadet Gneiss 2015	-0.560691943012742	ordinaires
+5803	17.1	36	Château Tour Haut-Caussan Médoc 2015	-0.5535004210778409	ordinaires
+4687	30.1	36	Cosse-Maisonneuve Cahors Le Sid 2014	-0.0860514953092802	ordinaires
+4051	7.7	41	Jeanne Gaillard IGP Collines Rhodaniennes Syrah Terre de Mandrin 2018	-0.8915019520181848	ordinaires
+5395	12.7	6	Chili Errazuriz Cabernet Sauvignon 2016	-0.7117139036456614	ordinaires
+4725	23.4	1	François Baur Riesling Grand Cru Brand Clos De La Treille 2017	-0.32696748012846155	ordinaires
+4606	50.1	41	Catherine et Claude Maréchal Volnay 2017	0.6331006981808132	ordinaires
+4303	30.0	0	Rimauresq Côtes de Provence Rouge Cru Classé Quintessence 2015	-0.08964725627673072	ordinaires
+4334	49.0	0	Champagne Gosset Grand Blanc de Blancs	0.593547327538858	ordinaires
+4790	11.1	43	Maurice Schoech Riesling 2018	-0.7692460791248689	ordinaires
+6137	46.0	0	Domaine de Vaccelli Ajaccio Blanc Sirocco 2017	0.48567449851534394	ordinaires
+4106	12.6	26	Emile Boeckel Pinot Noir Barriques Oberpfoeller 2018	-0.7153096646131119	ordinaires
+4141	39.0	1	Champagne Gosset Grande Réserve	0.2339712307938113	ordinaires
+4138	25.7	0	Zind-Humbrecht Zind 2017	-0.24426497787710083	ordinaires
+4731	22.0	7	Domaine Muré Crémant d'Alsace Rosé	-0.37730813367276805	ordinaires
+5375	15.2	0	David-Beaupère Juliénas Les Trois Verres 2018	-0.6218198794593999	ordinaires
+6567	28.4	9	"Decelle-Villa Côte de Nuits Villages ""Aux Montagnes"" 2014"	-0.14717943175593823	ordinaires
+5737	11.0	12	Triennes IGP Méditerranée Rouge Les Auréliens 2016	-0.7728418400923194	ordinaires
+5574	59.6	9	Domaine Huet Vouvray Le Mont Moelleux Première Trie 2008	0.9746979900886075	ordinaires
+6301	40.5	20	Borie La Vitarèle Saint-Chinian Midi Rouge 2015	0.2879076453055683	ordinaires
+4161	11.6	0	Planeta Sicilia Plumbago 2017	-0.7512672742876165	ordinaires
+4348	59.0	21	Champagne Egly-Ouriet Grand Cru Brut Tradition	0.9531234242839046	ordinaires
+4876	22.8	4	Tempier Bandol Rosé 2019	-0.3485420459331643	ordinaires
+6328	22.4	7	Le Pas de l'Escalette IGP Pays d'Hérault Les Clapas Blanc 2018	-0.3629250898029662	ordinaires
+4066	20.8	65	Oratoire Saint Martin Cairanne Rouge Haut Coustias 2016	-0.42045726528217364	ordinaires
+4083	17.0	0	"Rimauresq Côtes de Provence Blanc Cru Classé ""R"" 2019"	-0.5570961820452914	ordinaires
+4964	12.1	72	Château Turcaud Bordeaux Rouge Cuvée Majeure 2018	-0.7332884694503642	ordinaires
+4711	55.4	9	Albert Mann Riesling Grand Cru Schlossberg 2018	0.8236760294556877	ordinaires
+4162	14.3	26	Domino Romano Ribera Del Duero Camino Romano 2016	-0.6541817281664539	ordinaires
+4666	21.0	32	Vincent Carême Vouvray Moelleux 2015	-0.41326574334727273	ordinaires
+4357	39.0	0	Champagne Larmandier-Bernier Latitude	0.2339712307938113	ordinaires
+4610	13.1	114	François Bergeret Hautes Côtes de Beaune Blanc 2018	-0.6973308597758595	ordinaires
+4069	60.0	0	Gilles Robin Hermitage Rouge 2012	0.9890810339584093	ordinaires
+6663	50.4	6	Catherine et Claude Maréchal Pommard La Chanière 2017	0.6438879810831645	ordinaires
+4160	9.3	0	Planeta Sicilia La Segreta Rosso 2017	-0.8339697765389773	ordinaires
+4063	14.5	10	Mourgues du Grès Costières de Nîmes Terre de Feu 2017	-0.646990206231553	ordinaires
+5047	22.5	129	Champagne Petit Lebrun &amp; Fils Blanc de Blancs Grand Cru	-0.3593293288355157	ordinaires
+4975	23.7	15	Château Cordet Margaux 2013	-0.3161801972261101	ordinaires
+5524	38.6	0	Domaine Chambeyron Condrieu Vernon 2018	0.21958818692400947	ordinaires
+4397	59.0	7	Wemyss Malts Blended Malt Scotch Whisky The Hive Batch Strength	0.9531234242839046	ordinaires
+5003	48.7	9	David Duband Morey-Saint-Denis 2017	0.5827600446365067	ordinaires
+4604	49.0	9	Catherine et Claude Maréchal Pommard La Chanière 2016	0.593547327538858	ordinaires
+4757	26.5	1	Domaine Saint-Nicolas Fiefs Vendéens Blanc Le Haut des Clous 2017	-0.21549889013749707	ordinaires
+6226	20.4	0	Le Pas de l'Escalette Terrasses du Larzac Le Pas de D. 2017	-0.4348403091519756	ordinaires
+6227	40.2	15	Le Pas de l'Escalette Terrasses du Larzac Les Frieys 2017	0.27712036240321697	ordinaires
+4658	48.8	12	Thierry Germain Saumur-Champigny Outre Terre 2016	0.586355805603957	ordinaires
+5819	56.0	1	Maison Trimbach Riesling Cuvée Frédéric Emile 2008	0.8452505952603906	ordinaires
+4077	22.9	48	Domaine des Bosquets Gigondas 2016	-0.3449462849657139	ordinaires
+4168	18.2	50	Ollieux Romanis Corbières Blanc Cuvée Prestige 2018	-0.5139470504358858	ordinaires
+6223	26.7	1	Planeta Sicilia Chardonnay 2017	-0.20830736820259615	ordinaires
+5810	24.0	95	Château Tour De Pez Saint-Estèphe 2017	-0.3053929143237587	ordinaires
+5807	27.3	1	Château d'Arcole Saint-Emilion Grand Cru 2016	-0.1867328023978933	ordinaires
+4142	53.0	8	Champagne Gosset Grand Millésime 2006	0.7373777662368767	ordinaires
+4705	31.6	12	Albert Mann Gewurztraminer Grand Cru Steingrubler 2016	-0.032115080797523204	ordinaires
+4054	71.6	0	Clos du Mont-Olivet Châteauneuf-du-Pape Cuvée du Papet 2018	1.4061893061826631	ordinaires
+5809	17.9	0	Château Tour De Pez Saint-Estèphe Les Hauts de Pez 2016	-0.5247343333382373	ordinaires
+4062	11.9	60	Mourgues du Grès IGP Pont du Gard Terre d'Argence 2018	-0.7404799913852652	ordinaires
+4396	62.0	7	Wemyss Malts Blended Malt Scotch Whisky The Hive 12 ans	1.0609962533074186	ordinaires
+5801	24.0	62	Château Monbrison Margaux Bouquet de Monbrison 2012	-0.3053929143237587	ordinaires
+4631	76.8	3	Marcel Windholtz Eau de Vie de Baie de Houx	1.5931688764900875	ordinaires
+6753	46.5	29	Château Simone Palette Rouge 2015	0.5036533033525963	ordinaires
+4919	24.4	0	Alain Graillot Crozes-Hermitage Rouge 2017	-0.29100987045395693	ordinaires
+4105	6.8	42	Emile Boeckel Sylvaner Vieilles Vignes 2019	-0.923863800725239	ordinaires
+4245	8.9	141	Parcé Frères IGP Pays d'Oc Zoé Viognier 2019	-0.8483528204087792	ordinaires
+5815	16.6	11	Maison Trimbach Muscat Réserve 2017	-0.5714792259150933	ordinaires
+4059	8.7	36	Mourgues du Grès Costières de Nîmes Galets Rosés 2019	-0.8555443423436802	ordinaires
+4188	9.5	99	Château de La Liquière Languedoc Blanc Les Amandiers 2019	-0.8267782546040764	ordinaires
+4053	44.3	16	Clos du Mont-Olivet Châteauneuf-du-Pape 2012	0.4245465620686859	ordinaires
+6105	34.8	1	Stéphane Tissot Côtes du Jura Sursis 2017	0.08294927016089158	ordinaires
+5067	59.9	0	Albert Mann Pinot Noir Grand H 2017	0.9854852729909588	ordinaires
+4253	59.6	15	Domaine Huet Vouvray Le Clos du Bourg Moelleux Première Trie 2008	0.9746979900886075	ordinaires
+4614	19.0	50	Gilbert Picq Chablis En Vaudécorse 2017	-0.4851809626962821	ordinaires
+4166	20.5	8	Ollieux Romanis Corbières Boutenac Atal Sia 2017	-0.43124454818452507	ordinaires
+4298	23.2	36	Domaine de La Tour Du Bon Bandol Rouge 2018	-0.33415900206336246	ordinaires
+5779	5.8	211	Maurel Pays d'Oc Syrah 2019	-0.9598214103997437	ordinaires
+6280	10.4	0	Borie de Maurel Minervois Blanc La Belle Aude 2018	-0.7944164058970222	ordinaires
+6095	29.8	3	Château de Villeneuve Saumur-Champigny Le Grand Clos 2017	-0.09683877821163163	ordinaires
+4215	26.5	0	Marc Colin Et Fils Saint-Aubin Blanc Luce 2017	-0.21549889013749707	ordinaires
+4885	18.7	6	Saumaize-Michelin Mâcon Vergisson Sur La Roche 2017	-0.4959682455986335	ordinaires
+4181	11.9	137	Borie La Vitarèle Saint-Chinian Les Terres Blanches 2019	-0.7404799913852652	ordinaires
+6073	24.5	19	Jacqueson Rully Rouge 1er Cru Les Preaux 2018	-0.2874141094865064	ordinaires
+4707	22.8	13	Albert Mann Pinot Gris Cuvée Albert 2017	-0.3485420459331643	ordinaires
+4891	27.9	0	Jacqueson Rully Blanc 1er Cru La Pucelle 2018	-0.16515823659319057	ordinaires
+6584	13.5	29	La Préceptorie Côtes du Roussillon Blanc Coume Marie 2018	-0.6829478159060577	ordinaires
+4108	31.7	0	Zind-Humbrecht Riesling Herrenweg de Turckheim 2017	-0.028519319830072814	ordinaires
+4994	78.0	7	Domaine Peyre Rose Syrah Léone 2008	1.6363180080994932	ordinaires
+4087	14.4	45	Rimauresq Côtes de Provence Cru Classé Rosé 2019	-0.6505859671990036	ordinaires
+4157	12.0	10	Planeta Sicilia Alastro 2017	-0.7368842304178147	ordinaires
+5709	31.7	0	Philippe Alliet Chinon Rouge Coteau de Noiré 2016	-0.028519319830072814	ordinaires
+6928	19.0	20	Le Cèdre de Jean Faure Saint-Emilion 2016	-0.4851809626962821	ordinaires
+4886	28.4	48	Saumaize-Michelin Pouilly-Fuissé Clos sur la Roche 2018	-0.14717943175593823	ordinaires
+4212	39.8	19	Lucien Boillot Volnay 2017	0.2627373185334149	ordinaires
+5465	54.8	12	Clos du Mont-Olivet Châteauneuf-du-Pape 2007	0.8021014636509849	ordinaires
+4057	8.7	112	Mourgues du Grès Costières de Nîmes Galets Dorés 2019	-0.8555443423436802	ordinaires
+5802	23.8	22	Château Peymartin Saint-Julien 2014	-0.3125844362586596	ordinaires
+4050	21.8	0	Pierre Gaillard Saint-Joseph Blanc 2019	-0.38449965560766897	ordinaires
+4679	13.2	37	Domaine Rotier Gaillac Rouge Renaissance 2016	-0.6937350988084091	ordinaires
+4159	9.3	0	Planeta Sicilia La Segreta Bianco 2017	-0.8339697765389773	ordinaires
+4222	8.9	66	Xavier Frissant Touraine Amboise M de La Touche 2016	-0.8483528204087792	ordinaires
+4861	8.5	284	Philippe Nusswitz Duché d'Uzès Orénia Rouge 2017	-0.8627358642785811	ordinaires
+4182	16.7	53	Borie La Vitarèle Saint-Chinian Les Schistes 2017	-0.5678834649476429	ordinaires
+4755	7.4	97	Domaine de Montgilet Vin de France Grolleau 2019	-0.9022892349205363	ordinaires
+4890	17.0	29	Saumaize-Michelin Saint-Véran 2018	-0.5570961820452914	ordinaires
+4079	37.0	0	Le Vieux Donjon Châteauneuf-du-Pape 2013	0.16205601144480195	ordinaires
+4045	42.6	66	Pierre Gaillard Côte Rôtie 2018	0.36341862562202815	ordinaires
+4096	22.8	12	Paul Ginglinger Pinot Gris Grand Cru Eichberg 2015	-0.3485420459331643	ordinaires
+5391	24.2	17	Australie Maverick Trial Hill Riesling 2010	-0.29820139238885784	ordinaires
+5377	19.0	7	Argentine Alamos Catena Malbec 2017	-0.4851809626962821	ordinaires
+4072	32.0	28	Château de Vaudieu Châteauneuf-du-Pape Blanc 2015	-0.01773203692772139	ordinaires
+5722	7.1	118	Domaine de l'Hortus Pays de l'Hérault Le Loup Dans La Bergerie 2018	-0.9130765178228876	ordinaires
+4793	18.7	17	Maurice Schoech Pinot Gris Grand Cru Schlossberg 2017	-0.4959682455986335	ordinaires
+4723	29.0	5	François Baur Pinot Noir Sang Du Dragon 2017	-0.12560486595123538	ordinaires
+4192	17.8	43	Château de La Liquière Faugères Cistus Rouge 2017	-0.5283300943056877	ordinaires
+4150	59.0	17	Champagne Mailly Grand Cru Intemporelle 2010	0.9531234242839046	ordinaires
+4304	8.1	133	Domaine de l'Idylle Savoie Cruet 2018	-0.8771189081483829	ordinaires
+4276	17.6	1	I Fabbri Chianti Classico Terra Di Lamole 2015	-0.5355216162405886	ordinaires
+5690	44.6	8	Domaine Hauvette IGP Alpilles Dolia 2012	0.4353338449710375	ordinaires
+4980	26.5	88	Château La Tour l'Aspic Pauillac 2014	-0.21549889013749707	ordinaires
+4925	23.2	0	Cave de Castelmaure Corbières Rouge N°3 2017	-0.33415900206336246	ordinaires
+5904	18.8	25	Domaine de Montbourgeau Côtes du Jura Poulsard 2018	-0.492372484631183	ordinaires
+5930	14.1	66	Borie La Vitarèle Languedoc Blanc Le Grand Mayol 2019	-0.6613732501013548	ordinaires
+4071	33.2	16	Château de Vaudieu Châteauneuf-du-Pape Rouge 2015	0.025417094681684314	ordinaires
+6620	51.0	2	Domaine de La Tour Du Bon Bandol Rouge Saint Ferréol 2005	0.6654625468878673	ordinaires
+4170	9.0	58	Ollieux Romanis Corbières Classique 2018	-0.8447570594413287	ordinaires
+5393	35.3	9	Australie Harkham Wines Old Vines 2011	0.10092807499814391	ordinaires
+5004	59.4	1	David Duband Vosne Romanée 2017	0.9675064681537064	ordinaires
+4573	67.2	9	Château de Meursault Beaune-Grèves Les Trois Journaux 1er Cru 2015	1.247975823614843	ordinaires
+4924	12.8	0	Cave de Castelmaure Corbières Rouge Grande Cuvée 2017	-0.7081181426782109	ordinaires
+4860	8.7	85	Philippe Nusswitz Duché d'Uzès Orénia Rosé 2019	-0.8555443423436802	ordinaires
+4183	21.4	48	Borie La Vitarèle Saint-Chinian Les Crès 2016	-0.3988826994774709	ordinaires
+4144	49.0	11	Champagne Gosset Grand Rosé	0.593547327538858	ordinaires
+4064	14.4	27	Oratoire Saint Martin Cairanne Rouge Réserve des Seigneurs 2017	-0.6505859671990036	ordinaires
+5580	83.7	18	Lucien Boillot Puligny-Montrachet 1er Cru Les Perrières 2016	1.84127638324417	ordinaires
+4306	10.7	41	Domaine de l'Idylle Roussette de Savoie Anne de Chypre 2018	-0.7836291229946708	ordinaires
+4065	19.5	35	Oratoire Saint Martin Cairanne Rouge Les Douyes 2016	-0.46720215785902974	ordinaires
+4784	28.5	10	Maurice Schoech Riesling Vendanges Tardives 2017	-0.14358367078848772	ordinaires
+5817	57.6	5	Maison Trimbach Riesling Grand Cru Geisberg 2012	0.9027827707395981	ordinaires
+4607	13.4	0	François Bergeret Hautes Côtes de Beaune Vieilles Vignes Rondo 2017	-0.6865435768735082	ordinaires
+5912	57.0	8	Kingsbarns Distillery Lowland Single Malt Whisky	0.8812082049348953	ordinaires
+4712	15.8	0	Domaine Schoenheitz Crémant d'Alsace Mémoire de Granit Extra Brut	-0.600245313654697	ordinaires
+4566	28.5	3	Domaine de Montcalmès Coteaux du Languedoc Blanc 2017	-0.14358367078848772	ordinaires
+4720	15.9	10	Domaine Schoenheitz Riesling Herrenreben 2018	-0.5966495526872466	ordinaires
+4729	8.6	151	Emile Boeckel Crémant Brut Blanc de Blancs	-0.8591401033111306	ordinaires
+4684	18.1	25	Château Plaisance Fronton To Co Que Cal 2015	-0.5175428114033362	ordinaires
+5738	14.6	26	Triennes IGP Méditerranée Rouge Saint Auguste 2016	-0.6433944452641025	ordinaires
+4932	25.7	0	Marcel Richaud Cairanne Rouge Les Estrambords 2011	-0.24426497787710083	ordinaires
+5615	56.4	11	"Albert Boxler Pinot Gris Grand Cru Sommerberg ""W"" 2016"	0.8596336391301924	ordinaires
+4870	9.3	0	Triennes IGP Méditerranée Rosé 2019	-0.8339697765389773	ordinaires
+4970	49.5	0	Champagne Larmandier-Bernier Terre de Vertus Premier Cru 2011	0.6115261323761103	ordinaires
+4783	29.5	5	Maurice Schoech Pinot Gris Vendanges Tardives 2015	-0.10762606111398305	ordinaires
+4235	17.1	0	Maroc Graillot/Thaleb Tandem Syrah 2015	-0.5535004210778409	ordinaires
+5700	44.5	-1	"Gilles Robin Crozes-Hermitage Rouge ""1920"" 2016"	0.43173808400358693	ordinaires
+4047	18.3	36	Pierre Gaillard Côtes-du-Rhône Blanc Les Gendrines 2018	-0.5103512894684353	ordinaires
+5027	62.1	0	Champagne Agrapart &amp; Fils Terroirs Brut Blanc de Blancs Grand Cru	1.064592014274869	ordinaires
+4602	31.5	26	Catherine et Claude Maréchal Chorey-Lès-Beaune 2017	-0.03571084176497372	ordinaires
+6070	9.3	124	Borie La Vitarèle Pays d'Hérault Les Cigales 2019	-0.8339697765389773	ordinaires
+5739	10.7	39	Triennes IGP Méditerranée Rouge Merlot 2016	-0.7836291229946708	ordinaires
+4075	14.7	54	Plateau des Chênes Lirac 2015	-0.6397986842966522	ordinaires
+6592	24.4	70	Domaine de la Monardière Vacqueyras Blanc Galéjade 2018	-0.29100987045395693	ordinaires
+4074	12.7	50	Domaine de la Jérôme Côtes du Rhône Village 201	-0.7117139036456614	ordinaires
+4244	13.5	50	La Préceptorie Côtes du Roussillon Coume Marie 2018	-0.6829478159060577	ordinaires
+6299	78.0	10	Lucien Boillot Gevrey Chambertin 1er Cru Les Cherbaudes 2017	1.6363180080994932	ordinaires
+5922	48.5	0	Albert Mann Pinot Noir Clos de la Faille 2017	0.5755685227016056	ordinaires
+4617	67.5	1	Alphonse Mellot Sancerre Rouge Génération XIX 2011	1.2587631065171943	ordinaires
+5950	46.0	0	Domaine de Vaccelli AOP Ajaccio Rouge Granit 2016	0.48567449851534394	ordinaires
+4655	40.2	23	Thierry Germain Saumur-Champigny Les Mémoires 2016	0.27712036240321697	ordinaires
+4085	19.0	37	Rimauresq Côtes de Provence Rouge Cru Classé 2017	-0.4851809626962821	ordinaires
+4656	43.0	3	Thierry Germain Saumur-Champigny Outre Terre 2013	0.37780166949183	ordinaires
+4690	12.8	15	Domaine Plageoles Vin de France Contre-Pied 2016	-0.7081181426782109	ordinaires
+4936	11.1	88	Domaine Rouge Garance Côtes du Rhône Blanc De Garance 2018	-0.7692460791248689	ordinaires
+5488	43.5	17	Decelle-Villa Beaune Rouge 2015	0.3957804743290823	ordinaires
+4672	17.8	5	Domaine Pellé Menetou Salon Rouge Morogues 2017	-0.5283300943056877	ordinaires
+4100	15.8	7	Emile Boeckel Gewurztraminer Grand Cru Zotzenberg 2016	-0.600245313654697	ordinaires
+4220	11.6	66	Xavier Frissant Touraine Amboise Chenin Les Pierres 2018	-0.7512672742876165	ordinaires
+5925	49.5	12	Albert Mann Riesling Grand Cru Furstentum 2017	0.6115261323761103	ordinaires
+4703	19.8	2	Albert Mann Crémant d'Alsace Extra Brut 2017	-0.4564148749566783	ordinaires
+5736	14.9	10	Triennes IGP Méditerranée Blanc Sainte Fleur 2018	-0.6326071623617513	ordinaires
+4926	7.9	92	Domaine La Croix Belle Côtes de Thongue Blanc Champ des Lys 2018	-0.8843104300832839	ordinaires
+5616	38.4	6	"Albert Boxler Pinot Noir ""S"" 2016"	0.21239666498910842	ordinaires
+4287	38.6	22	Domaine Hauvette Les Baux de Provence Cornaline 2014	0.21958818692400947	ordinaires
+5545	65.9	0	Marc Colin Et Fils Chassagne-Montrachet Blanc Les Caillerets 1er Cru 2016	1.201230931037987	ordinaires
+4146	29.5	33	Champagne Mailly Grand Cru Brut Réserve	-0.10762606111398305	ordinaires
+4336	35.5	36	Champagne Mailly Grand Cru Blanc de Pinot Noir	0.10811959693304495	ordinaires
+5905	43.9	0	Domaine de Montbourgeau L'Etoile Vin Jaune 2009	0.4101635181988841	ordinaires
+6665	27.7	8	Domaine Hauvette IGP Alpilles Jaspe 2017	-0.17234975852809148	ordinaires
+4682	9.1	26	Château Plaisance Fronton Rouge 2017	-0.8411612984738782	ordinaires
+5906	19.8	0	Domaine de Montbourgeau L'Etoile En Banode 2016	-0.4564148749566783	ordinaires
+5382	22.8	11	Nouvelle-Zélande Marlborough Momo Pinot Noir 2016	-0.3485420459331643	ordinaires
+5772	29.7	47	Camille Giroud Santenay Rouge 2016	-0.10043453917908216	ordinaires

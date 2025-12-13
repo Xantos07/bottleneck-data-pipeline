@@ -1,7 +1,0 @@
-id: bottleneck-data-pipeline
-namespace: prod
-
-tasks:
-  - id: hello
-    type: io.kestra.plugin.core.log.Log
-    message: Hello World! 🚀
