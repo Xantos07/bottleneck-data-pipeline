@@ -1,1 +1,5 @@
 .env
+.secrets.act
+*.csv
+*.bkp
+*.drawio

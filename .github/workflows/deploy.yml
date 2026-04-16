@@ -1,0 +1,75 @@
+name: Deploy to Kestra
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate:
+    name: Validate flows & scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Python syntax
+        run: |
+          for f in scripts/*.py scripts/test/*.py; do
+            python -m py_compile "$f" && echo "OK $f" || exit 1
+          done
+
+      - name: Validate YAML flows
+        run: |
+          pip install -q pyyaml
+          for f in flows/*.yml; do
+            python -c "import yaml; yaml.safe_load(open('$f'))" && echo "OK $f" || exit 1
+          done
+
+  deploy:
+    name: Deploy flows & scripts
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy flows (create or update)
+        env:
+          KESTRA_URL: ${{ secrets.KESTRA_URL }}
+          KESTRA_AUTH: ${{ secrets.KESTRA_ADMIN_USER }}:${{ secrets.KESTRA_ADMIN_PASSWORD }}
+        run: |
+          for f in flows/*.yml; do
+            id=$(grep "^id:" "$f" | awk '{print $2}')
+            ns=$(grep "^namespace:" "$f" | awk '{print $2}')
+            code=$(curl -s -o /dev/null -w "%{http_code}" -u "$KESTRA_AUTH" \
+              -X POST "$KESTRA_URL/api/v1/main/flows" \
+              -H "Content-Type: application/x-yaml" \
+              --data-binary "@$f")
+            if [ "$code" = "422" ]; then
+              curl -s -o /dev/null -w "%{http_code} updated $f\n" -u "$KESTRA_AUTH" \
+                -X PUT "$KESTRA_URL/api/v1/main/flows/$ns/$id" \
+                -H "Content-Type: application/x-yaml" \
+                --data-binary "@$f"
+            else
+              echo "$code created $f"
+            fi
+          done
+
+      - name: Upload namespace files (scripts)
+        env:
+          KESTRA_URL: ${{ secrets.KESTRA_URL }}
+          KESTRA_AUTH: ${{ secrets.KESTRA_ADMIN_USER }}:${{ secrets.KESTRA_ADMIN_PASSWORD }}
+        run: |
+          for f in scripts/*.py; do
+            filename=$(basename "$f")
+            curl -s -o /dev/null -w "%{http_code} $filename\n" \
+              -u "$KESTRA_AUTH" \
+              -X PUT "$KESTRA_URL/api/v1/main/namespaces/prod/files?path=/$filename" \
+              -F "fileContent=@$f"
+          done
