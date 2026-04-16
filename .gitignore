@@ -3,3 +3,5 @@
 *.csv
 *.bkp
 *.drawio
+__pycache__/
+*.pyc

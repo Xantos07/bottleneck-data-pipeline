@@ -53,12 +53,7 @@ def test_deleted_doublon_with_doublon():
     assert "5 lignes supprimées" in result["message"]
 
 
-try:
+if __name__ == "__main__":
     test_deleted_doublon_nothing()
     test_deleted_doublon_with_doublon()
-except Exception as e:
-    print(f"[UNIT TEST ERREUR] Erreur {e}")
-finally:
-    if 'conn' in locals():
-        conn.close()
-        print("\n Connexion fermée")
+    print("Tous les tests ont passé")

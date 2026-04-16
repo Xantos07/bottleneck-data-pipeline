@@ -18,15 +18,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Check Python syntax
-        run: |
-          for f in scripts/*.py scripts/test/*.py; do
-            python -m py_compile "$f" && echo "OK $f" || exit 1
-          done
+      - name: Install dependencies
+        run: pip install -q pytest duckdb pyyaml
+
+      - name: Run unit tests
+        run: python -m pytest -v
 
       - name: Validate YAML flows
         run: |
-          pip install -q pyyaml
           for f in flows/*.yml; do
             python -c "import yaml; yaml.safe_load(open('$f'))" && echo "OK $f" || exit 1
           done
@@ -66,10 +65,10 @@ jobs:
           KESTRA_URL: ${{ secrets.KESTRA_URL }}
           KESTRA_AUTH: ${{ secrets.KESTRA_ADMIN_USER }}:${{ secrets.KESTRA_ADMIN_PASSWORD }}
         run: |
-          for f in scripts/*.py; do
-            filename=$(basename "$f")
-            curl -s -o /dev/null -w "%{http_code} $filename\n" \
+          find scripts -name "*.py" | while read f; do
+            path="/${f#scripts/}"
+            curl -s -o /dev/null -w "%{http_code} $path\n" \
               -u "$KESTRA_AUTH" \
-              -X PUT "$KESTRA_URL/api/v1/main/namespaces/prod/files?path=/$filename" \
+              -X PUT "$KESTRA_URL/api/v1/main/namespaces/prod/files?path=$path" \
               -F "fileContent=@$f"
           done

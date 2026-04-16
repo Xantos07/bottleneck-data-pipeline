@@ -45,12 +45,7 @@ def test_colomn_with_null():
 
 
 
-try:
-    test_colomn_none_doublon();
-    test_colomn_with_doublon();
-except Exception as e:
-    print(f"[UNIT TEST ERREUR] Erreur {e}")
-finally:
-    if 'conn' in locals():
-        conn.close()
-        print("\n Connexion fermée")
+if __name__ == "__main__":
+    test_colomn_none_null()
+    test_colomn_with_null()
+    print("Tous les tests ont passé")
