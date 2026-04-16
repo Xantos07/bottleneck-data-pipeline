@@ -1,0 +1,20 @@
+id: monthly_trigger
+namespace: prod
+
+# import_excel_data
+tasks:
+  - id: log_message
+    type: io.kestra.plugin.core.log.Log
+    message: "Démarrage du pipeline mensuel"
+
+  - id: init_env
+    type: io.kestra.plugin.core.flow.Subflow
+    namespace: prod
+    flowId: init-bottleneck-data-pipeline
+    wait: true  
+    
+triggers:
+  - id: schedule
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 9 15 * *"
+    

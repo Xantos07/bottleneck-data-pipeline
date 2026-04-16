@@ -1,0 +1,62 @@
+id: analyse_data
+namespace: prod
+
+triggers:
+  - id: after_import_all_excel
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions:
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: import_excel_data_new
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+# pas correct create database devrait etre dans un flow a lui :)
+tasks:
+  - id: create_database
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      erp_table.parquet: "{{ trigger.outputs.erp_file }}"
+      liaison_table.parquet: "{{ trigger.outputs.liaison_file }}"
+      web_table.parquet: "{{ trigger.outputs.web_file }}"
+    outputFiles:
+      - "database.duckdb"
+    commands:
+      - python create_db_from_parquet.py
+
+  - id: parallel_analysis
+    type: io.kestra.plugin.core.flow.Parallel
+    tasks:
+    - id: analyse_doublons
+      type: io.kestra.plugin.scripts.python.Commands
+      namespaceFiles:
+        enabled: true
+      taskRunner:
+        type: io.kestra.plugin.core.runner.Process
+      inputFiles:
+        database.duckdb: "{{ outputs.create_database.outputFiles['database.duckdb'] }}"
+      commands:
+        - python analyse_doublons.py
+
+    - id: analyse_valeurs_null
+      type: io.kestra.plugin.scripts.python.Commands
+      namespaceFiles:
+        enabled: true
+      taskRunner:
+        type: io.kestra.plugin.core.runner.Process
+      inputFiles:
+        database.duckdb: "{{ outputs.create_database.outputFiles['database.duckdb'] }}"
+      outputFiles:
+        - "database.duckdb"
+      commands:
+        - python analyse_valeurs_null.py
+
+outputs:
+  - id: database_duckdb
+    type: FILE
+    value: "{{ outputs.analyse_valeurs_null.outputFiles['database.duckdb'] }}"

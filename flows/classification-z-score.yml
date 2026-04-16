@@ -1,0 +1,13 @@
+id: classification-z-score
+namespace: prod
+
+tasks:
+  - id: classification
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    commands:
+      - python classification.py
+      - python chiffre.py

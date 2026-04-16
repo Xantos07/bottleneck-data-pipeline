@@ -1,0 +1,31 @@
+id: export_data
+namespace: prod
+
+triggers: 
+  - id: after_analyse_data_delete
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions: 
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: analyse_data_after_delete
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+
+tasks:
+  - id: export_all_data
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      database.duckdb: "{{ trigger.outputs.database_final_duckdb }}"
+    outputFiles:
+      - "*.csv"
+      - "*.xlsx"
+      - "*.json"
+    commands:
+      - python classification.py
+      - python chiffre.py

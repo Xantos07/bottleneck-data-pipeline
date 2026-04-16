@@ -1,0 +1,19 @@
+id: test_duckdb
+namespace: prod
+
+tasks:
+  - id: duckdb
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    beforeCommands:
+      - pip install pandas openpyxl duckdb
+    commands:
+      - python test/create_db.py
+      - python test/import_all_excel_to_db.py
+      - python test/analyse_doublons.py
+      - python test/suppression_doublons.py
+      - python test/verification.py
+

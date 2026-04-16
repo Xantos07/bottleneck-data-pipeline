@@ -1,0 +1,13 @@
+id: init-bottleneck-data-pipeline
+namespace: prod
+description: Initialisation des packages Python uniquement
+
+tasks:
+  - id: setup_packages
+    type: io.kestra.plugin.scripts.python.Commands
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    beforeCommands:
+      - pip install pandas openpyxl duckdb pyarrow
+    commands:
+      - echo "Packages Python installés !"

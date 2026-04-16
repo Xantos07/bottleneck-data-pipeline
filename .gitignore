@@ -1,0 +1,7 @@
+.env
+.secrets.act
+*.csv
+*.bkp
+*.drawio
+__pycache__/
+*.pyc

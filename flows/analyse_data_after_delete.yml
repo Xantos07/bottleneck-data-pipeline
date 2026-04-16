@@ -1,0 +1,32 @@
+id: analyse_data_after_delete
+namespace: prod
+
+triggers: 
+  - id: after_delete_data
+    type: io.kestra.plugin.core.trigger.Flow
+    conditions: 
+      - type: io.kestra.plugin.core.condition.ExecutionFlowCondition
+        namespace: prod
+        flowId: delete_data
+      - type: io.kestra.plugin.core.condition.ExecutionStatusCondition
+        in:
+          - SUCCESS
+
+
+tasks:
+  - id: analyse_all_data
+    type: io.kestra.plugin.scripts.python.Commands
+    namespaceFiles:
+      enabled: true
+    taskRunner:
+      type: io.kestra.plugin.core.runner.Process
+    inputFiles:
+      database.duckdb: "{{ trigger.outputs.database_clean_duckdb }}"
+    commands:
+      - python analyse_doublons.py
+      - python analyse_valeurs_null.py
+
+outputs:
+  - id: database_final_duckdb
+    type: FILE
+    value: "{{ trigger.outputs.database_clean_duckdb }}"
